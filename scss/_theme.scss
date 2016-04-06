@@ -1,0 +1,55 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+//@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+// * {
+//   border: solid 1px red;
+// }
+* {
+  border-top: solid 1px red;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 96%;
+  margin: 0 auto;
+}
+
+.clearfix:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+// utility
+.screen-reader-text {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  font-size: .05em;
+}
+
+html,
+ol.legend li {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+}
+
+
+ol, ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

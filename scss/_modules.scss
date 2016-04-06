@@ -1,0 +1,218 @@
+
+// generally speaking
+ol.legend,
+ol.descriptions,
+ol.thumbnails {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  > li {
+    display: inline-block;
+  }
+}
+
+// all thumbnails display inline-block
+ol.thumbnails,
+ol.legend {
+  li {
+    display: inline-block;
+  }
+}
+
+ol.legend,
+ol.thumbnails,
+.legend-decade-list-item,
+.thumbnails-decade-list-item {
+    //height: 80px;
+    //background: yellow;
+    //border-right: solid 1px red;
+}
+
+// birth
+ol.legend > li:first-child {
+  > ol > li  {
+    width: 9%;
+  }
+}
+li.legend-decade-list-item {
+  ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    > li {
+      width: 10%;
+      text-align: center;
+      border-right: solid 1px red;
+    }
+  }
+}
+
+// for the slider parts
+.animation-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+
+img {
+  max-width: 100%;
+}
+
+// ol.thumbnails {
+//   width: 300%;
+//   li {
+//     width: 33.3%;
+//     display: block;
+//     float: left;
+//     height: 400px;
+//   }
+//   li:nth-of-type(1) {
+//     background: yellow;
+//   }
+//   li:nth-of-type(2) {
+//     background: green;
+//   }
+//   li:nth-of-type(3) {
+//     background: blue;
+//   }
+// }
+
+ol.thumbnails {
+  text-align: center;
+  > li {
+    > ol {
+      position: relative;
+      background: rgba(0,0,0,.5);
+      > li {
+        width: 10%;
+        position: relative;
+        z-index: -1;
+      }
+      > li.active {
+        z-index: 1;
+      }
+    }
+  }
+  // compensate for birth
+  > li:nth-of-type(1) {
+    > ol {
+      > li {
+        width: 9.091%;
+      }
+    }
+  }
+}
+
+
+
+// legend
+// because of birth
+ol.legend {
+  a.pin {
+    width: 30px;
+    height: 30px;
+    display: block;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background: white;
+    border: solid 3px black;
+    margin: 0 auto;
+    &:hover,
+    &:focus,
+    &.active {
+      background: black;
+    }
+  }
+}
+
+
+// descriptions
+ol.descriptions {
+  width: 100%;
+  > li {
+    display: block;
+    float: none;
+    width: 100%;
+    padding: 20px;
+    background: #d5d5d5;
+    color: #989898;
+  }
+  > li {
+    //display: none;
+  }
+}
+
+
+
+// widgets
+
+
+
+
+
+// prev/next buttons
+a.prev,
+a.next {
+  display: inline-block;
+  &.show {
+    display: inline-block;
+  }
+}
+
+.pagination {
+  &:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  .prev {
+    float: left;
+  }
+  .next {
+    float: right;
+  }
+}
+.prev,
+.next {
+  width: 60px;
+  height: 60px;
+  border: none;
+  background: transparent;
+  position: relative;
+  margin: 10px;
+  &:before {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    z-index: -1;
+  }
+}
+.next {
+  &:before {
+  border-top: 25px solid transparent;
+  border-left: 40px solid transparentize(black, .5);
+  border-bottom: 25px solid transparent;
+  }
+}
+
+.prev {
+  &:before {
+  border-top: 25px solid transparent;
+  border-right: 40px solid transparentize(black, .5);
+  border-bottom: 25px solid transparent;
+  }
+}
+
+a.prev {
+  display: none;
+}

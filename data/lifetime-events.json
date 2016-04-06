@@ -1,0 +1,77 @@
+{
+  "lifetime_events": [
+    {
+      "age": "0",
+      "location": "Denver, CO, USA",
+      "thumbnail" : "http://placehold.it/200x250&text=birth",
+      "gallery" : [
+        "http://placehold.it/400x600&text=birth01",
+        "http://placehold.it/400x600&text=birth02"
+      ],
+      "description" : "8lbs., and 12ounces.",
+      "status" : "born at rose hospital.",
+      "additional_events" : ["event 1", "event 2"]
+    },{
+      "age": "1",
+      "location": "Snowmass, CO, USA",
+      "thumbnail" : "http://placehold.it/200x250&text=1",
+      "status" : "parents separate"
+    },{
+      "age": "2",
+      "location": "Snowmass, CO, USA",
+      "thumbnail" : "http://placehold.it/200x250&text=conoco",
+      "status" : "going to China (conoco) with Harry",
+      "additional_events" : ["at one point was convinced i could fly", "rode a black horse named Winnie"]
+    },{
+      "age": "3",
+      "location": "Snowmass, CO, USA",
+      "thumbnail" : "http://placehold.it/200x250&text=barn+kid",
+      "status" : "doing barn kid things"
+    },{
+      "age": "4",
+      "location": "Mauai, HI, USA",
+      "thumbnail" : "http://placehold.it/200x250&text=hawaii",
+      "status" : "watching mom jump off waterfall in pink bikini"
+    },{
+      "age": "5",
+      "location": "Snowmass, CO, USA",
+      "thumbnail" : "http://placehold.it/200x250&text=more+barn",
+      "status" : "riding Winnie, exploring the barn"
+    },{
+      "age": "6",
+      "location": "Aspen, CO, USA",
+      "thumbnail" : "http://placehold.it/200x250&text=mrs+grants",
+      "status" : "preschool at Mrs. Grant's"
+    },{
+      "age": "7",
+      "location": "Aspen, CO, USA | Roatan, Honduras",
+      "thumbnail" : "http://placehold.it/200x250&text=lakshmi",
+      "status" : "1st grade, sharing bunk bed with Lakshmi Case"
+    },{
+      "age": "8",
+      "location": "Roatan, Honduras | Orlando, FL, USA",
+      "thumbnail" : "http://placehold.it/200x250&text=uniforms",
+      "status" : "2nd grade, the uniform year",
+      "gallery" : [
+        "http://placehold.it/400x600/0000ff/&text=marroon",
+        "http://placehold.it/400x600/00ff00/&text=blue+yellow+red+green"
+      ]
+    },{
+      "age": "9",
+      "location": "San Diego, CA, USA",
+      "thumbnail" : "http://placehold.it/200x250&text=waldorf",
+      "status" : "3rd grade, the Waldorf school, learned how to knit and crochet"
+    },{
+      "age": "10",
+      "location": "Crested Butte, CO, USA",
+      "thumbnail" : "http://placehold.it/200x250&text=CB",
+      "status" : "4th grade, move back to the mountains."
+    },{
+      "age": "14",
+      "location": "Crested Butte, CO, USA | St. Helena, CA, USA",
+      "thumbnail" : "http://placehold.it/200x250&text=st+helena",
+      "status" : "5th grade, move back to CA, live in haunted house",
+      "description" : "Really liked the movie Harriet the Spy this year."
+    }
+  ]
+}
