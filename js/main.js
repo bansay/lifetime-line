@@ -1,27 +1,27 @@
+// set an age
+var age = 30;
+
+// show age to user so they feel reassured
+$('#age').empty();
+$('#age').text(age);
+
+// know how many decades, for the legend and thumbnails containers
+var num_of_decades = Math.ceil(age / 10);
+
+var legend_decade_li_html = '<li class="legend-decade-list-item"><ol></ol></li>';
+var thumbnail_decade_li_html = '<li class="thumbnail-decade-list-item"><ol></ol></li>';
+
+
+var $legend_container = $('#legend-container ol.legend');
+var $thumbnails_container = $('#thumbnails-container ol.thumbnails');
+var $descriptions_container = $('#descriptions-container ol.descriptions');
+
+// object to hold major functions
+var LifeTimeLine = {};
+
+// object to hold data from json
+var LifeTimeEventsData = {};
 (function LifeTimeLineGlobal() {
-  // set an age
-  var age = 30;
-  
-  // show age to user so they feel reassured
-  $('#age').empty();
-  $('#age').text(age);
-  
-  // know how many decades, for the legend and thumbnails containers
-  var num_of_decades = Math.ceil(age / 10);
-  
-  var legend_decade_li_html = '<li class="legend-decade-list-item"><ol></ol></li>';
-  var thumbnail_decade_li_html = '<li class="thumbnail-decade-list-item"><ol></ol></li>';
-  
-  
-  var $legend_container = $('#legend-container ol.legend');
-  var $thumbnails_container = $('#thumbnails-container ol.thumbnails');
-  var $descriptions_container = $('#descriptions-container ol.descriptions');
-  
-  // object to hold major functions
-  var LifeTimeLine = {};
-  
-  // object to hold data from json
-  var LifeTimeEventsData = {};
     
   LifeTimeLine.add_the_legend_list_items_and_pagination = function(age, callback) {
 
@@ -227,13 +227,11 @@
 
 
   LifeTimeLine.next_step = function(data) {
-    //console.log(data);
-    //console.log('what up');
     
     var decade_to_append_to = 0;
     // populate the pins per lifetime event
     $.each(data, function(key, val) {
-      //console.log(val);
+      
       if(typeof val !== 'object') return false;
       
       $.each(val, function(k, v) {
@@ -249,7 +247,7 @@
                 
         // deal with thumbnails
         if(typeof v.thumbnail !== 'undefined') {
-          //console.log(v.thumbnail);
+
           if(v.age > 10) {
             decade_to_append_to = Math.floor(v.age / 10);
           }
@@ -258,7 +256,6 @@
           thumbnail_html += '<img src="'+v.thumbnail+'" alt="Thumbnail Image for Age: '+v.age+'" />';
           thumbnail_html += '</a>';
           thumbnail_html += '</li>';
-          //console.log(decade_to_append_to);
           $thumbnails_container.find('> li').eq(decade_to_append_to).find('> ol').append(thumbnail_html);
         }
         
@@ -285,22 +282,18 @@
       $.each(val, function(k, v) {
         // deal with status
         if(typeof v.location !== 'undefined') {
-          //console.log(v.status);
           $descriptions_container.find('li[data-legend-age="'+v.age+'"]').append('<p class="location">'+v.location+'</p>');
         }
         // deal with status
         if(typeof v.status !== 'undefined') {
-          //console.log(v.status);
           $descriptions_container.find('li[data-legend-age="'+v.age+'"]').append('<p class="status">'+v.status+'</p>');
         }
         // deal with description
         if(typeof v.description !== 'undefined') {
-          //console.log(v.description);
           $descriptions_container.find('li[data-legend-age="'+v.age+'"]').append('<p class="description">'+v.description+'</p>');
         }
         // deal with description
         if(typeof v.additional_events !== 'undefined') {
-          //console.log(v.additional_events);
           var single_event = [];
           if($.isArray(v.additional_events)) {
             $.each(v.additional_events, function(k, v) {
@@ -308,7 +301,6 @@
             });
             $descriptions_container.find('li[data-legend-age="'+v.age+'"]').append('<ul class="additional-events"></ul>');
           }
-          //console.log(single_event);
           additional_eventsies[v.age] = single_event;
         }
         // deal with gallery
@@ -318,7 +310,6 @@
             $.each(v.gallery, function(k, v) {
               single_gallery.push(v);
             });
-            //console.log(single_gallery);
             $descriptions_container.find('li[data-legend-age="'+v.age+'"]').append('<div class="gallery-container"><ul class="gallery"></ul></div>');
           }
           galleriez[v.age] = single_gallery;
@@ -327,11 +318,9 @@
       });
     });
     
-    //console.log(additional_eventsies);
     // populate additional events as callback
     LifeTimeLine.add_each_additional_list_item(additional_eventsies);
     
-    //console.log(galleriez);
     // populate galleriez as callback
     LifeTimeLine.add_each_gallery_item(galleriez);
     
@@ -343,7 +332,6 @@
   LifeTimeLine.add_each_additional_list_item = function(data) {
     $.each(data, function(k, v) {
       var $container = $descriptions_container.find('li[data-legend-age="'+k+'"]').find('ul.additional-events');
-      //console.log($container);
       $.each(v, function(inner_k, inner_v) {
         $container.append('<li>'+inner_v+'</li>');
       });
@@ -354,7 +342,6 @@
   LifeTimeLine.add_each_gallery_item = function(data) {
     $.each(data, function(k, v) {
       var $container = $descriptions_container.find('li[data-legend-age="'+k+'"]').find('ul.gallery');
-      //console.log($container);
       $.each(v, function(inner_k, inner_v) {
         $container.append('<li><img src="'+inner_v+'" alt="" /></li>');
       });
@@ -423,10 +410,8 @@
     
     var index_of_current = $('.modal.gallery-wrapper ul.pagination li.current').index();
     var total_indexes = $('.modal.gallery-wrapper ul.pagination li').length - 1;
-    //console.log(total_indexes);
     
     $('.modal.gallery-wrapper a.modal-next').on('click', function() {
-      //console.log('clicked next');
       $('.modal.gallery-wrapper ul.pagination li').removeClass();
       if(index_of_current === total_indexes) {
         $('.modal.gallery-wrapper ul.pagination li:first-child').addClass('current');
@@ -444,7 +429,6 @@
   };
 
   LifeTimeLine.finally_send_the_index_to_know_where_to_slide = function(index) {
-    console.log(index);
     if(index === 0) {
       $('.modal.gallery-wrapper ul.gallery.prev-next-gallery').animate({
           marginLeft: 0,
@@ -491,11 +475,11 @@
     };
     
     open_close_gallery_associated_to_this_age();
+    // add a slider in the modal
+    LifeTimeLine.once_galleries_completed_set_gallery_css(LifeTimeLine.paginate_the_gallery);
     
   });
   
-  // add a slider in the modal
-  LifeTimeLine.once_galleries_completed_set_gallery_css(LifeTimeLine.paginate_the_gallery);
 
   
   
