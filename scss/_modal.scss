@@ -45,14 +45,14 @@
     right: -20px;
     width: 40px;
     height: 40px;
-    background: gray;
+    background: black;
     color: white;
     text-align: center;
     padding-top: 6px;
     border-radius: 50%;
     &:hover {
-      background: black;
-      color: white;
+      background: white;
+      color: black;
     }
   }
 }
@@ -75,19 +75,9 @@
       padding: 8px 6px 4px;
       background: black;
       color: white;
-      //cursor: pointer;
       &.current {
         background: white;
         color: black;
-        cursor: default;
-        &:hover {
-          background: white;
-          color: black;
-          cursor: default;
-        }
-      }
-      &:hover {
-        background: transparentize(black, .5);
       }
     }
   }

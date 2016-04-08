@@ -189,9 +189,13 @@ LifeTimeLine.populate_the_rest_of_the_data = function(data) {
         
         
         if($.isArray(v.gallery)) {
+          
+          $thumbnails_container.find('.thumb[data-legend-age="'+v.age+'"]').addClass('has-gallery');
+          
           $.each(v.gallery, function(k, v) {
             single_gallery.push(v);
           });
+          
           $descriptions_container.find('li[data-legend-age="'+v.age+'"]').append(single_gallery_html);
         }
         galleriez[v.age] = single_gallery;
@@ -250,6 +254,17 @@ LifeTimeLine.listen_to_all_major_click_events = function(data) {
     // deal with active classes
     $('a.pin').removeClass('active');
     $(this).addClass('active');
+    LifeTimeLine.clicks_on_gallery_too();
+  });
+};
+
+LifeTimeLine.clicks_on_gallery_too = function() {
+  
+  $('.thumb.active.has-gallery a').on('click', function(e) {
+    e.preventDefault();
+    var target_gallery = $(this).parent().attr('data-legend-age');
+    //console.log(target_gallery);
+    $descriptions_container.find('> li[data-legend-age="'+target_gallery+'"]').find('a.open-gallery').trigger('click');
   });
 };
 

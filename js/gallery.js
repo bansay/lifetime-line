@@ -165,5 +165,5 @@ $(document).ready(function() {
       $('.modal a.cancel.control').trigger('click');
     }
   });
-  
+    
 });

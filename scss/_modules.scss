@@ -92,9 +92,18 @@ ol.thumbnails {
         width: 10%;
         position: relative;
         z-index: -1;
+        a {
+          cursor: default;
+          display: inline-block;
+        }
       }
       > li.active {
         z-index: 1;
+      }
+      > li.active.has-gallery {
+        a {
+          cursor: zoom-in;
+        }
       }
     }
   }

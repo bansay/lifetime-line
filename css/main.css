@@ -88,8 +88,13 @@ ol.thumbnails {
       width: 10%;
       position: relative;
       z-index: -1; }
+      ol.thumbnails > li > ol > li a {
+        cursor: default;
+        display: inline-block; }
     ol.thumbnails > li > ol > li.active {
       z-index: 1; }
+    ol.thumbnails > li > ol > li.active.has-gallery a {
+      cursor: zoom-in; }
   ol.thumbnails > li:nth-of-type(1) > ol > li {
     width: 9.091%; }
 
@@ -201,14 +206,14 @@ a.prev {
   right: -20px;
   width: 40px;
   height: 40px;
-  background: gray;
+  background: black;
   color: white;
   text-align: center;
   padding-top: 6px;
   border-radius: 50%; }
   .modal .cancel:hover {
-    background: black;
-    color: white; }
+    background: white;
+    color: black; }
 
 .modal.gallery-wrapper a.modal-previous,
 .modal.gallery-wrapper a.modal-next {
@@ -227,14 +232,7 @@ a.prev {
     color: white; }
     .modal.gallery-wrapper ul.pagination li.current {
       background: white;
-      color: black;
-      cursor: default; }
-      .modal.gallery-wrapper ul.pagination li.current:hover {
-        background: white;
-        color: black;
-        cursor: default; }
-    .modal.gallery-wrapper ul.pagination li:hover {
-      background: rgba(0, 0, 0, 0.5); }
+      color: black; }
 .modal.gallery-wrapper ul.gallery.prev-next-gallery {
   text-align: center; }
   .modal.gallery-wrapper ul.gallery.prev-next-gallery:after {
