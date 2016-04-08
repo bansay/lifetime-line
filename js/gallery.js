@@ -4,7 +4,7 @@ LifeTimeLine.open_close_gallery_associated_to_this_age = function() {
   var $gallery = $('.modal.gallery-wrapper');
   
   $btn_open.on('click touch', function(e) {
-    console.log('clicked');
+    //console.log('clicked');
     e.preventDefault();
     //$gallery.fadeIn(200);
     $(this).parent('.gallery-container').find('.modal.gallery-wrapper').fadeIn(200);
@@ -35,7 +35,7 @@ LifeTimeLine.once_galleries_completed_set_gallery_css = function(callback) {
     if($(this).find('ul.gallery.prev-next-gallery > li').size() > 1) {
       $(this).find('.message').append('<ul class="pagination"></ul>');
       // setup the pagination if there are more than 1 gallery item
-      $(this).find('.message').append('<a class="modal-next" href="#">Next</a>');
+      $(this).find('.message').append('<a class="modal-previous" href="#">Previous</a><a class="modal-next" href="#">Next</a>');
       
     }
   });
@@ -47,7 +47,8 @@ LifeTimeLine.paginate_the_gallery = function(items) {
   $.each(items, function() {
     var $these_gallery_items = $(this).find('ul.gallery.prev-next-gallery > li');
     for(i = 0; i < $these_gallery_items.length; i++) {
-      $(this).find('.message').find('ul.pagination').append('<li>'+i+'</li>');
+      var text = i+1;
+      $(this).find('.message').find('ul.pagination').append('<li>'+text+'</li>');
     }
   });
   // fuck this callback
@@ -64,12 +65,10 @@ LifeTimeLine.set_the_current_li_in_pagination = function() {
 
 LifeTimeLine.listen_for_clicks_on_modal_gallery_pagination_elements = function() {
   
-  var finally_send_the_index_to_know_where_to_slide = function(index, context) {
-    console.log(context);
-    
+  var next_finally_send_the_index_to_know_where_to_slide = function(index, context) {
+    //console.log(context);
     var $context = $(context);
-    
-    console.log($context);
+    //console.log($context);
     if(index === 0) {
       $context.parent().find('ul.gallery.prev-next-gallery').animate({
           marginLeft: 0,
@@ -81,33 +80,73 @@ LifeTimeLine.listen_for_clicks_on_modal_gallery_pagination_elements = function()
           queue: false
       }, 400);
     }
-    
   };
+  
+  var previous_finally_send_the_index_to_know_where_to_slide = function(index, total_indexes, context) {
+    //console.log(context);
+    var $context = $(context);
+    //var total_width_of_container = total_indexes;
+    //console.log(total_width_of_container);
+    var total_width_of_container = total_indexes * 100;
+    total_width_of_container = '-=' + total_width_of_container + "%";
+    //console.log(total_width_of_container);
+    //console.log($context);
+    if(index === total_indexes) {
+      $context.parent().find('ul.gallery.prev-next-gallery').animate({
+          marginLeft: total_width_of_container,
+          queue: false
+      }, 400);
+    } else {
+      $context.parent().find('ul.gallery.prev-next-gallery').animate({
+          marginLeft: '+=100%',
+          queue: false
+      }, 400);
+    }
+  };
+  
   
   $('.modal.gallery-wrapper a.modal-next').on('click', function(event) {
     event.preventDefault();
     var self = this;
     var total_indexes = $(this).parent().find('ul.pagination > li').size() - 1;
     var index_of_current = $(this).parent().find('ul.pagination li.current').index();
-    var presumably_next_slide = $(this).parent().find('ul.pagination li.current').index() + 1;
     
-    console.log('total_indexes 74: '+total_indexes);
-    console.log('index_of_current 75: '+index_of_current);
-    console.log('presumably_next_slide 75: '+presumably_next_slide);
-    
-    //$('.modal.gallery-wrapper ul.pagination li').removeClass();
     
     if(index_of_current === total_indexes) {
       $(this).parent().find('ul.pagination li').removeClass('current');
       $(this).parent().find('ul.pagination li:first-child').addClass('current');
       index_of_current = 0;
+      
     } else {
       $(this).parent().find('ul.pagination li').removeClass('current');
       $(this).parent().find('ul.pagination li').eq(index_of_current + 1).addClass('current');
       index_of_current = index_of_current + 1;
+      
     }
     
-    finally_send_the_index_to_know_where_to_slide(index_of_current, self);
+    next_finally_send_the_index_to_know_where_to_slide(index_of_current, self);
+    
+  });
+  
+  $('.modal.gallery-wrapper a.modal-previous').on('click', function(event) {
+    event.preventDefault();
+    var self = this;
+    var total_indexes = $(this).parent().find('ul.pagination > li').size() - 1;
+    var index_of_current = $(this).parent().find('ul.pagination li.current').index();
+    
+    if(index_of_current === 0) {
+      $(this).parent().find('ul.pagination li').removeClass('current');
+      $(this).parent().find('ul.pagination li:last-child').addClass('current');
+      index_of_current = total_indexes;
+      
+    } else {
+      $(this).parent().find('ul.pagination li').removeClass('current');
+      $(this).parent().find('ul.pagination li').eq(index_of_current - 1).addClass('current');
+      index_of_current = index_of_current - 1;
+      
+    }
+    
+    previous_finally_send_the_index_to_know_where_to_slide(index_of_current, total_indexes, self);
     
   });
   
@@ -120,5 +159,11 @@ $(document).ready(function() {
   LifeTimeLine.open_close_gallery_associated_to_this_age();
   // // add a slider in the modal
   // LifeTimeLine.once_galleries_completed_set_gallery_css(LifeTimeLine.paginate_the_gallery);
+  
+  $(document).keyup(function(e) {
+     if (e.keyCode == 27) { // escape key maps to keycode `27`
+      $('.modal a.cancel.control').trigger('click');
+    }
+  });
   
 });
