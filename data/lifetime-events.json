@@ -6,7 +6,10 @@
       "thumbnail" : "http://placehold.it/200x250&text=birth",
       "gallery" : [
         "http://placehold.it/400x600&text=birth01",
-        "http://placehold.it/400x600&text=birth02"
+        "http://placehold.it/400x600&text=birth02",
+        "http://placehold.it/400x600&text=birth03",
+        "http://placehold.it/400x600&text=birth04",
+        "http://placehold.it/400x600&text=birth05"
       ],
       "description" : "8lbs., and 12ounces.",
       "status" : "born at rose hospital.",

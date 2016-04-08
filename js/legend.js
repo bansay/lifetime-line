@@ -86,6 +86,7 @@ LifeTimeLine.add_the_legend_list_items_and_pagination = function(age, callback) 
     thumbnail_decade_li_html,
     add_decade_child_list_items_thumbnails
   );
+  
   // get the json object and populate lifetimeline events
   callback(LifeTimeLine.populate_the_skeleton_with_data);
 };
@@ -171,11 +172,27 @@ LifeTimeLine.populate_the_rest_of_the_data = function(data) {
       // deal with gallery
       if(typeof v.gallery !== 'undefined') {
         var single_gallery = [];
+        
+        // build the modal for the gallery in each description
+        var single_gallery_html = '<div class="gallery-container">';
+        single_gallery_html += '<a href="#" class="open-gallery" title="open gallery">Open Gallery</a>';
+        single_gallery_html += '<div class="modal gallery-wrapper">';
+        single_gallery_html += '<div class="modal-wrap">';
+        single_gallery_html += '<div class="message">';
+        single_gallery_html += '<a href="#" class="cancel control" title="Close"><i class="fa fa-close">X</i></a>';
+        single_gallery_html += '<ul class="gallery prev-next-gallery"></ul>'; // to be made the selector
+        single_gallery_html += '</ul>';
+        single_gallery_html += '</div>';
+        single_gallery_html += '</div>';
+        single_gallery_html += '</div>';
+        single_gallery_html += '</div>';
+        
+        
         if($.isArray(v.gallery)) {
           $.each(v.gallery, function(k, v) {
             single_gallery.push(v);
           });
-          $descriptions_container.find('li[data-legend-age="'+v.age+'"]').append('<div class="gallery-container"><ul class="gallery"></ul></div>');
+          $descriptions_container.find('li[data-legend-age="'+v.age+'"]').append(single_gallery_html);
         }
         galleriez[v.age] = single_gallery;
       }
@@ -187,7 +204,7 @@ LifeTimeLine.populate_the_rest_of_the_data = function(data) {
   LifeTimeLine.add_each_additional_list_item(additional_eventsies);
   
   // populate galleriez as callback
-  LifeTimeLine.add_each_gallery_item(galleriez);
+  LifeTimeLine.add_each_gallery_item(galleriez, LifeTimeLine.open_close_gallery_associated_to_this_age);
   
   // now that all the data is where it needs to be, build the click events for the interactive experience
   LifeTimeLine.listen_to_all_major_click_events(data);
@@ -211,6 +228,7 @@ LifeTimeLine.add_each_gallery_item = function(data, callback) {
       $container.append('<li><img src="'+inner_v+'" alt="" /></li>');
     });
   });
+  callback();
 };
 
 
