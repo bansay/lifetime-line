@@ -113,10 +113,21 @@ LifeTimeLine.populate_the_skeleton_with_data = function(data) {
               
       // deal with thumbnails
       if(typeof v.thumbnail !== 'undefined') {
-
-        if(v.age > 10) {
+        // if(v.age > 10) {
+        //   decade_to_append_to = Math.floor(v.age / 10);
+        // } else if(v.age % 10 === 0) {
+        //   console.log('it should be on the next slide?' + v.age + ' ' + decade_to_append_to);
+        // }
+        
+        if(v.age % 10 === 0 && v.age > 10) {
+          //console.log('it is ON the decade and not 10');
+          decade_to_append_to = parseInt(v.age / 10, 10) - 1;
+        } else if(v.age > 10 && v.age % 10 !== 0) {
+          //console.log('it is ON the decade and not 10');
           decade_to_append_to = Math.floor(v.age / 10);
         }
+        
+        console.log(v.age + ' ' + decade_to_append_to);
         var thumbnail_html = '<li class="thumb" data-legend-age="'+v.age+'">';
         thumbnail_html += '<a href="#">';
         thumbnail_html += '<img src="'+v.thumbnail+'" alt="Thumbnail Image for Age: '+v.age+'" />';

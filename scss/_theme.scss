@@ -1,5 +1,6 @@
 /* apply a natural box layout model to all elements, but allowing components to change */
-//@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
 html {
   box-sizing: border-box;
 }
@@ -7,15 +8,9 @@ html {
   box-sizing: inherit;
 }
 
-// * {
-//   border: solid 1px red;
-// }
-* {
-  border-top: solid 1px red;
-}
-
 body {
   margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 a {
@@ -43,7 +38,7 @@ a {
 
 html,
 ol.legend li {
-  font-family: 'Roboto Condensed', sans-serif;
+  // font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
 }
 

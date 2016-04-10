@@ -3,13 +3,9 @@
     {
       "age": "0",
       "location": "Denver, CO, USA",
-      "thumbnail" : "http://placehold.it/200x250&text=birth",
+      "thumbnail" : "img/gallery/age000.jpg",
       "gallery" : [
-        "http://placehold.it/400x600&text=birth01",
-        "http://placehold.it/400x600&text=birth02",
-        "http://placehold.it/400x600&text=birth03",
-        "http://placehold.it/400x600&text=birth04",
-        "http://placehold.it/400x600&text=birth05"
+        "img/gallery/age000.jpg"
       ],
       "description" : "8lbs., and 12ounces.",
       "status" : "born at rose hospital.",
@@ -17,64 +13,272 @@
     },{
       "age": "1",
       "location": "Snowmass, CO, USA",
-      "thumbnail" : "http://placehold.it/200x250&text=1",
-      "status" : "parents separate"
+      "thumbnail" : "img/gallery/age001.jpg",
+      "status" : "parents separate",
+      "gallery" : [
+        "img/gallery/age001.jpg"
+      ]
     },{
       "age": "2",
       "location": "Snowmass, CO, USA",
-      "thumbnail" : "http://placehold.it/200x250&text=conoco",
+      "thumbnail" : "img/gallery/age002.jpg",
       "status" : "going to China (conoco) with Harry",
-      "additional_events" : ["at one point was convinced i could fly", "rode a black horse named Winnie"]
+      "additional_events" : ["at one point was convinced i could fly", "rode a black horse named Winnie"],
+      "gallery" : [
+        "img/gallery/age002.jpg"
+      ]
     },{
       "age": "3",
       "location": "Snowmass, CO, USA",
-      "thumbnail" : "http://placehold.it/200x250&text=barn+kid",
-      "status" : "doing barn kid things"
+      "thumbnail" : "img/gallery/age003.jpg",
+      "status" : "doing barn kid things",
+      "gallery" : [
+        "img/gallery/age003.jpg"
+      ]
     },{
       "age": "4",
       "location": "Mauai, HI, USA",
-      "thumbnail" : "http://placehold.it/200x250&text=hawaii",
-      "status" : "watching mom jump off waterfall in pink bikini"
+      "thumbnail" : "img/gallery/age004.jpg",
+      "status" : "watching mom jump off waterfall in pink bikini",
+      "gallery" : [
+        "img/gallery/age004.jpg"
+      ]
     },{
       "age": "5",
       "location": "Snowmass, CO, USA",
-      "thumbnail" : "http://placehold.it/200x250&text=more+barn",
-      "status" : "riding Winnie, exploring the barn"
+      "thumbnail" : "img/gallery/age005.jpg",
+      "status" : "riding Winnie, exploring the barn",
+      "gallery" : [
+        "img/gallery/age005.jpg"
+      ]
     },{
       "age": "6",
       "location": "Aspen, CO, USA",
-      "thumbnail" : "http://placehold.it/200x250&text=mrs+grants",
-      "status" : "preschool at Mrs. Grant's"
+      "thumbnail" : "img/gallery/age006.jpg",
+      "status" : "preschool at Mrs. Grant's",
+      "gallery" : [
+        "img/gallery/age006.jpg"
+      ]
     },{
       "age": "7",
-      "location": "Aspen, CO, USA | Roatan, Honduras",
-      "thumbnail" : "http://placehold.it/200x250&text=lakshmi",
-      "status" : "1st grade, sharing bunk bed with Lakshmi Case"
-    },{
-      "age": "8",
       "location": "Roatan, Honduras | Orlando, FL, USA",
-      "thumbnail" : "http://placehold.it/200x250&text=uniforms",
+      "thumbnail" : "img/gallery/age007.jpg",
       "status" : "2nd grade, the uniform year",
       "gallery" : [
-        "http://placehold.it/400x600/0000ff/&text=marroon",
-        "http://placehold.it/400x600/00ff00/&text=blue+yellow+red+green"
+        "img/gallery/age007.jpg"
+      ]
+    },{
+      "age": "8",
+      "location": "San Diego, CA, USA",
+      "thumbnail" : "img/gallery/age008.jpg",
+      "status" : "3rd Grade, the Waldorf School. Learn to knit and crochet.",
+      "gallery" : [
+        "img/gallery/age008.jpg"
       ]
     },{
       "age": "9",
-      "location": "San Diego, CA, USA",
-      "thumbnail" : "http://placehold.it/200x250&text=waldorf",
-      "status" : "3rd grade, the Waldorf school, learned how to knit and crochet"
+      "location": "San Diego, CA, USA / Crested Butte, CO, USA",
+      "thumbnail" : "img/gallery/age009.jpg",
+      "status" : "4th Grade, move back to the mountains.",
+      "gallery" : [
+        "img/gallery/age009.jpg"
+      ]
     },{
       "age": "10",
-      "location": "Crested Butte, CO, USA",
-      "thumbnail" : "http://placehold.it/200x250&text=CB",
-      "status" : "4th grade, move back to the mountains."
+      "location": "Crested Butte, CO, USA / St. Helena, CA, USA",
+      "thumbnail" : "img/gallery/age010.jpg",
+      "status" : "5th grade, back to California to live in a haunted house.",
+      "description" : "Favorite movie: Harriet the Spy",
+      "additional_events" : ["Played Ophelia in 'Something's Rotten in the State of Denmark'"],
+      "gallery" : [
+        "img/gallery/age010.jpg"
+      ]
+    },{
+      "age": "11",
+      "location": "Crested Butte, CO, USA / St. Helena, CA, USA",
+      "thumbnail" : "img/gallery/age011.jpg",
+      "status" : "6th grade, move into town home with viniard in backyard, hang out on roof most days.",
+      "description" : "Carved a Ghourd in school. Took a class from the same voice actor as the Little Ceasar's character that says 'Pizza Pizza'",
+      "gallery" : [
+        "img/gallery/age011.jpg"
+      ]
+    },{
+      "age": "12",
+      "location": "Cave Cree, AZ, USA / Care Free, AZ, USA",
+      "thumbnail" : "img/gallery/age012.jpg",
+      "status" : "7th grade, Terravita gated community.",
+      "description" : "Both houses had a pool. In the 2nd house I lived in the guest house.",
+      "gallery" : [
+        "img/gallery/age012.jpg"
+      ]
+    },{
+      "age": "13",
+      "location": "Telluride, CO, USA",
+      "thumbnail" : "img/gallery/age013.jpg",
+      "status" : "8th grade, back to the mountains.",
+      "description" : "Was excited to be back in a small town and wear Birkenstocks",
+      "additional_events" : ["Saw Tuck & Patti perform live at the middle/high school."],
+      "gallery" : [
+        "img/gallery/age013.jpg"
+      ]
     },{
       "age": "14",
-      "location": "Crested Butte, CO, USA | St. Helena, CA, USA",
-      "thumbnail" : "http://placehold.it/200x250&text=st+helena",
-      "status" : "5th grade, move back to CA, live in haunted house",
-      "description" : "Really liked the movie Harriet the Spy this year."
+      "location": "Littleton, CO, USA",
+      "thumbnail" : "img/gallery/age014.jpg",
+      "status" : "Freshmen Year, move in with Dad, Molli, Kati, and Lyndsi.",
+      "description" : "Enroll at Heritage High School. Want to go to same school for 4 consecutive years.",
+      "additional_events" : ["minimum number of friends, volunteer in school library during lunch hour eating french fries and ranch", "Mitchell is born"],
+      "gallery" : [
+        "img/gallery/age014.jpg"
+      ]
+    },{
+      "age": "15",
+      "location": "Littleton, CO, USA",
+      "thumbnail" : "img/gallery/age015.jpg",
+      "status" : "Freshmen/Sophomore Year, start working.",
+      "description" : "Get my first job at Paradise Bakery & Cafe, at the old South Glenn Mall.",
+      "additional_events" : ["First french kiss", "Also worked at Sears Roebuck & Co. in the Home Fashions department"],
+      "gallery" : [
+        "img/gallery/age015.jpg"
+      ]
+    },{
+      "age": "16",
+      "location": "Littleton, CO, USA",
+      "thumbnail" : "img/gallery/age016.jpg",
+      "status" : "Sophomore/Junior Year, hostess and sometimes waitress.",
+      "description" : "Working at Beau Jo's Pizza in Highlands Ranch",
+      "additional_events" : ["Started making more friends."],
+      "gallery" : [
+        "img/gallery/age016.jpg"
+      ]
+    },{
+      "age": "17",
+      "location": "Littleton, CO, USA",
+      "thumbnail" : "img/gallery/age017.jpg",
+      "status" : "Junior/Senior Year, and Wet Seal at Park Meadows Mall",
+      "description" : "Started working there to buy cute and inexpensive clothes.",
+      "additional_events" : ["Asked to prom by the senior lacrosse team captain"],
+      "gallery" : [
+        "img/gallery/age017.jpg"
+      ]
+    },{
+      "age": "18",
+      "location": "Littleton, CO, USA",
+      "thumbnail" : "img/gallery/age018.jpg",
+      "status" : "Senior Year, getting ready for college.",
+      "description" : "Did the Senior Prom Fashion Show",
+      "additional_events" : ["Working at Pasta Jay's"],
+      "gallery" : [
+        "img/gallery/age018.jpg"
+      ]
+    },{
+      "age": "19",
+      "location": "Boulder, CO, USA",
+      "thumbnail" : "img/gallery/age019.jpg",
+      "status" : "Freshmen Year, living in Farrand Hall at CU - Boulder",
+      "description" : "Rather excited to be an adult.",
+      "additional_events" : ["Major is Psych", "Go to Cancun with best friend Katie Sturges.", "Add Art to Major.", "Working at Zolo Bar & Grill"],
+      "gallery" : [
+        "img/gallery/age019.jpg"
+      ]
+    },{
+      "age": "20",
+      "location": "Boulder, CO, USA",
+      "thumbnail" : "img/gallery/age020.jpg",
+      "status" : "Freshmen/Sophomore Year, first apartment with Lauren, Jessica, and Katie in the Goss House",
+      "additional_events" : ["Switch Psych to Journalism: Media Studies", "Travel to Italy with best friend Roberta Baines."],
+      "gallery" : [
+        "img/gallery/age020.jpg"
+      ]
+    },{
+      "age": "21",
+      "location": "Boulder, CO, USA / DTC",
+      "thumbnail" : "img/gallery/age021.jpg",
+      "status" : "Work at The Tavern in DTC for summer. Move into studio apartment in fall.",
+      "additional_events" : [],
+      "gallery" : [
+        "img/gallery/age021.jpg"
+      ]
+    },{
+      "age": "22",
+      "location": "Boulder, CO, USA",
+      "thumbnail" : "img/gallery/age022.jpg",
+      "status" : "Junior/Senior Year, get really into photography.",
+      "description" : "Lived with a couple guys for a few months off Craigslist, moved in with Maya Weinstein for a few months, found Kate Whiteneck as a roommate.",
+      "additional_events" : ["Zolo Bar & Grill", "Folsom St. Coffee Co."],
+      "gallery" : [
+        "img/gallery/age022.jpg"
+      ]
+    },{
+      "age": "23",
+      "location": "Boulder, CO, USA",
+      "thumbnail" : "img/gallery/age023.jpg",
+      "status" : "Senior, working at Folsom St. Coffee Co.",
+      "description" : "Start taking classes at ATLAS Institute.",
+      "additional_events" : ["Accepted into BFA Program", "14th Street. Bar & Grill", "Radda Trattoria"],
+      "gallery" : [
+        "img/gallery/age023.jpg"
+      ]
+    },{
+      "age": "24",
+      "location": "Boulder, CO, USA",
+      "thumbnail" : "img/gallery/age024.jpg",
+      "status" : "Super Senior Year, working at Folsom St. Coffee Co and Ideal Market.",
+      "description" : "Live in house off Folsom with Denise, Kim, Jeremy. Take Fall semester off.",
+      "gallery" : [
+        "img/gallery/age024.jpg"
+      ]
+    },{
+      "age": "25",
+      "location": "Boulder, CO, USA",
+      "thumbnail" : "img/gallery/age025.jpg",
+      "status" : "Super + Duper Senior Year, graduate CU.",
+      "description" : "Complete BFA for Integrated Arts, and Capstone Project for ATLAS in same final semester.",
+      "additional_events" : ["Build a 'Post-Human' sculpture named Rose.", "Get first non-service job at Microsoft as Image Specialist on Bing Maps."],
+      "gallery" : [
+        "img/gallery/age025.jpg"
+      ]
+    },{
+      "age": "26",
+      "location": "Boulder, CO, USA",
+      "thumbnail" : "img/gallery/age026.jpg",
+      "status" : "First year volunteering with CommuniKey",
+      "description" : "Gemini in summer, start to love the techno beats.",
+      "additional_events" : ["Leave Microsoft to work at BDW as Academic Operations Manager"],
+      "gallery" : [
+        "img/gallery/age026.jpg"
+      ]
+    },{
+      "age": "27",
+      "location": "Boulder, CO, USA",
+      "thumbnail" : "img/gallery/age027.jpg",
+      "status" : "Volunteer at Scrib to learn about freelancing.",
+      "description" : "Internship to become a web developer.",
+      "additional_events" : ["Get position as Interactive Developer, for minimum wage, at Crispin Porter + Bogusky", "Build Via Foci as current brand to replace brittanyansay.com"],
+      "gallery" : [
+        "img/gallery/age027.jpg"
+      ]
+    },{
+      "age": "28",
+      "location": "Boulder, CO, USA",
+      "thumbnail" : "img/gallery/age028.jpg",
+      "status" : "Get job in Denver as junior developer.",
+      "description" : "Work in Rhino District at SpireMedia as frontend dev.",
+      "gallery" : [
+        "img/gallery/age028.jpg"
+      ]
+    },{
+      "age": "29",
+      "location": "Boulder, CO, USA",
+      "thumbnail" : "img/gallery/age029.jpg",
+      "status" : "Start at Vermilion as full-stack developer.",
+      "description" : "becoming Senior in Frontend, more comfortable with backend",
+      "additional_events" : ["Start teaching at Front Range Community College, once a week: Spring class is called 'Complete Web Authoring', Fall class is called 'Web Architecture: Open Source'"],
+      "gallery" : [
+        "img/gallery/age029.jpg"
+      ]
     }
+        
+        
   ]
 }

@@ -1,15 +1,14 @@
 /* apply a natural box layout model to all elements, but allowing components to change */
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 html {
   box-sizing: border-box; }
 
 *, *:before, *:after {
   box-sizing: inherit; }
 
-* {
-  border-top: solid 1px red; }
-
 body {
-  margin: 0; }
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif; }
 
 a {
   text-decoration: none; }
@@ -31,7 +30,6 @@ a {
 
 html,
 ol.legend li {
-  font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400; }
 
 ol, ul {
@@ -69,8 +67,7 @@ li.legend-decade-list-item ol {
   list-style-type: none; }
   li.legend-decade-list-item ol > li {
     width: 10%;
-    text-align: center;
-    border-right: solid 1px red; }
+    text-align: center; }
 
 .animation-container {
   width: 100%;
@@ -83,7 +80,7 @@ ol.thumbnails {
   text-align: center; }
   ol.thumbnails > li > ol {
     position: relative;
-    background: rgba(0, 0, 0, 0.5); }
+    background: rgba(255, 255, 255, 0.5); }
     ol.thumbnails > li > ol > li {
       width: 10%;
       position: relative;
@@ -98,18 +95,23 @@ ol.thumbnails {
   ol.thumbnails > li:nth-of-type(1) > ol > li {
     width: 9.091%; }
 
-ol.legend a.pin {
-  width: 30px;
-  height: 30px;
-  display: block;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  border-radius: 50px;
-  background: white;
-  border: solid 3px black;
-  margin: 0 auto; }
-  ol.legend a.pin:hover, ol.legend a.pin:focus, ol.legend a.pin.active {
-    background: black; }
+ol.legend {
+  padding-bottom: 5px; }
+  ol.legend a.pin {
+    width: 30px;
+    height: 30px;
+    display: block;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background: white;
+    border: solid 3px black;
+    margin: 0 auto; }
+    ol.legend a.pin:hover, ol.legend a.pin:focus, ol.legend a.pin.active {
+      background: black; }
+  ol.legend span.age {
+    display: inline-block;
+    margin-bottom: 8px; }
 
 ol.descriptions {
   width: 100%; }
@@ -117,9 +119,11 @@ ol.descriptions {
     display: block;
     float: none;
     width: 100%;
-    padding: 20px;
-    background: #d5d5d5;
-    color: #989898; }
+    padding: 20px; }
+    ol.descriptions > li p {
+      margin: 0; }
+  ol.descriptions > li {
+    display: none; }
 
 a.prev,
 a.next {
