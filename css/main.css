@@ -181,8 +181,7 @@ a.open-gallery {
   color: black;
   display: inline-block;
   padding: 5px 5px 4px;
-  font-size: .925rem;
-  margin-top: 1rem; }
+  font-size: .925rem; }
   a.open-gallery:hover, a.open-gallery:focus {
     background: gray;
     color: white; }
