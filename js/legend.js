@@ -108,7 +108,7 @@ LifeTimeLine.populate_the_skeleton_with_data = function(data) {
       var age_html = '<a class="pin" href="#"><span class="screen-reader-text">lifetime event</span></a>';
       var $age_container = $('span.age').parent('li[data-legend-age="'+v.age+'"]');
       var description_html = '<li data-legend-age="'+v.age+'">';
-      description_html += '<p class="age">Age: '+v.age+'</p>';
+      description_html += '<p class="age">Age: <span class="data">'+v.age+'</span></p>';
       description_html += '</li>';
               
       // deal with thumbnails
@@ -127,7 +127,7 @@ LifeTimeLine.populate_the_skeleton_with_data = function(data) {
           decade_to_append_to = Math.floor(v.age / 10);
         }
         
-        console.log(v.age + ' ' + decade_to_append_to);
+        //console.log(v.age + ' ' + decade_to_append_to);
         var thumbnail_html = '<li class="thumb" data-legend-age="'+v.age+'">';
         thumbnail_html += '<a href="#">';
         thumbnail_html += '<img src="'+v.thumbnail+'" alt="Thumbnail Image for Age: '+v.age+'" />';
@@ -159,11 +159,11 @@ LifeTimeLine.populate_the_rest_of_the_data = function(data) {
     $.each(val, function(k, v) {
       // deal with status
       if(typeof v.location !== 'undefined') {
-        $descriptions_container.find('li[data-legend-age="'+v.age+'"]').append('<p class="location">'+v.location+'</p>');
+        $descriptions_container.find('li[data-legend-age="'+v.age+'"]').append('<p class="location">Location: <span class="data">'+v.location+'</span></p>');
       }
       // deal with status
       if(typeof v.status !== 'undefined') {
-        $descriptions_container.find('li[data-legend-age="'+v.age+'"]').append('<p class="status">'+v.status+'</p>');
+        $descriptions_container.find('li[data-legend-age="'+v.age+'"]').append('<p class="status">Status: <span>'+v.status+'</span></p>');
       }
       // deal with description
       if(typeof v.description !== 'undefined') {
@@ -186,7 +186,7 @@ LifeTimeLine.populate_the_rest_of_the_data = function(data) {
         
         // build the modal for the gallery in each description
         var single_gallery_html = '<div class="gallery-container">';
-        single_gallery_html += '<a href="#" class="open-gallery" title="open gallery">Open Gallery</a>';
+        single_gallery_html += '<a href="#" class="open-gallery" title="open gallery">View Gallery</a>';
         single_gallery_html += '<div class="modal gallery-wrapper">';
         single_gallery_html += '<div class="modal-wrap">';
         single_gallery_html += '<div class="message">';
@@ -267,6 +267,23 @@ LifeTimeLine.listen_to_all_major_click_events = function(data) {
     $(this).addClass('active');
     LifeTimeLine.clicks_on_gallery_too();
   });
+  
+  $('.thumb.has-gallery').on('click', function() {
+    //$(this).find('> a').trigger('click');
+    var this_matching_age = $(this).attr('data-legend-age');
+    var $this_matching_pin = $legend_container.find('li[data-legend-age="'+this_matching_age+'"] a.pin');
+    $this_matching_pin.trigger('click');
+  });
+  
+  $('.thumb.has-gallery').hover(function() {
+    var target_gallery = $(this).attr('data-legend-age');
+    $legend_container.find('li[data-legend-age] a.pin').removeClass('hover');
+    $legend_container.find('li[data-legend-age="'+target_gallery+'"] a.pin').addClass('hover');
+  }, function() {
+    $legend_container.find('li[data-legend-age] a.pin').removeClass('hover');
+  });
+  
+  
 };
 
 LifeTimeLine.clicks_on_gallery_too = function() {
@@ -277,6 +294,8 @@ LifeTimeLine.clicks_on_gallery_too = function() {
     //console.log(target_gallery);
     $descriptions_container.find('> li[data-legend-age="'+target_gallery+'"]').find('a.open-gallery').trigger('click');
   });
+  
+  
 };
 
 
@@ -286,8 +305,8 @@ LifeTimeLine.clicks_on_gallery_too = function() {
 // pagination function based on age and decades
 LifeTimeLine.add_pagination_for_the_decades = function() {
   var current_decade = 0;
-  var $prev = $('a.prev');
-  var $next = $('a.next');
+  var $prev = $('a.prev-decade');
+  var $next = $('a.next-decade');
 
   function showPreviousButton() {
     $('a.prev').addClass('show');
@@ -355,6 +374,17 @@ LifeTimeLine.add_pagination_for_the_decades = function() {
   });
 };
 
+// close modal when its clicked
+LifeTimeLine.close_modal_on_body_click = function() {
+  $(document).on('click', 'body', function(e) {
+    var $clicked = $(e.target);
+
+    if ($clicked.is('.modal.active')) {
+      $('.modal').fadeOut(300).removeClass('active');
+    }
+  });
+};
+ 
 $(document).ready(function() {
   
   // init the pagination
@@ -362,5 +392,7 @@ $(document).ready(function() {
   // build list items based on age
   LifeTimeLine.add_the_legend_list_items_and_pagination(age, set_data_to_this_unique_object);
   
+  // all this stuff is really messy i realize theres gotta be a better way to organize all this stuff
+  LifeTimeLine.close_modal_on_body_click();
   
 });

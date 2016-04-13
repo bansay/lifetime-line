@@ -8,13 +8,34 @@ LifeTimeLine.open_close_gallery_associated_to_this_age = function() {
     e.preventDefault();
     //$gallery.fadeIn(200);
     $(this).parent('.gallery-container').find('.modal.gallery-wrapper').fadeIn(200);
+    add_the_active_class_to_this_modal(e);
+    
   });
   
   $btn_closed.on('click touch', function(e) {
     e.preventDefault();
     $gallery.fadeOut(100);
+    remove_the_active_class_to_this_modal(e);
   });
+  
   LifeTimeLine.once_galleries_completed_set_gallery_css(LifeTimeLine.paginate_the_gallery);
+  
+  // all of this just to close the modal on .modal.active click, which is the stage outside the .modal-wrap
+  function add_the_active_class_to_this_modal(target) {
+    //console.log(target);
+    // a.open-gallery associated to this modal
+    var $target = $(target.target);
+    //console.log($target);
+    $target.parent('.gallery-container').find('.modal').addClass('active');
+  }
+  function remove_the_active_class_to_this_modal(target) {
+    //console.log(target);
+    // a.cancel-control associated to this modal
+    var $target = $(target.target);
+    //console.log($target);
+    $('.modal').removeClass('active');
+  }
+  
 };
 
 // ok the next bit of code bunches are for the modal gallery
@@ -73,12 +94,12 @@ LifeTimeLine.listen_for_clicks_on_modal_gallery_pagination_elements = function()
       $context.parent().find('ul.gallery.prev-next-gallery').animate({
           marginLeft: 0,
           queue: false
-      }, 400);
+      }, 300, "swing");
     } else {
       $context.parent().find('ul.gallery.prev-next-gallery').animate({
           marginLeft: '-=100%',
           queue: false
-      }, 400);
+      }, 300, "swing");
     }
   };
   
@@ -95,12 +116,12 @@ LifeTimeLine.listen_for_clicks_on_modal_gallery_pagination_elements = function()
       $context.parent().find('ul.gallery.prev-next-gallery').animate({
           marginLeft: total_width_of_container,
           queue: false
-      }, 400);
+      }, 300, "swing");
     } else {
       $context.parent().find('ul.gallery.prev-next-gallery').animate({
           marginLeft: '+=100%',
           queue: false
-      }, 400);
+      }, 300, "swing");
     }
   };
   
@@ -165,5 +186,7 @@ $(document).ready(function() {
       $('.modal a.cancel.control').trigger('click');
     }
   });
+  
+
     
 });

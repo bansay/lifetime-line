@@ -69,18 +69,24 @@ ol.thumbnails {
   > li {
     > ol {
       position: relative;
-      background: rgba(255,255,255,.5);
       > li {
         width: 10%;
-        position: relative;
-        z-index: -1;
+        background: rgba(255,255,255,.7);
+        //z-index: -1;
         a {
+          position: relative;
+          z-index: -1;
           cursor: default;
           display: inline-block;
         }
       }
       > li.active {
-        z-index: 1;
+        a {
+          z-index: 1;
+        }
+      }
+      > li.has-gallery {
+        cursor: pointer;
       }
       > li.active.has-gallery {
         a {
@@ -117,6 +123,9 @@ ol.legend {
     margin: 0 auto;
     &:hover,
     &:focus,
+    &.hover {
+      background: transparentize(black, .5);
+    }
     &.active {
       background: black;
     }
@@ -131,11 +140,12 @@ ol.legend {
 // descriptions
 ol.descriptions {
   width: 100%;
+  margin: 40px 0;
   > li {
     display: block;
     float: none;
-    width: 100%;
-    padding: 20px;
+    //width: 100%;
+    //padding: 20px;
     //background: #d5d5d5;
     //color: #989898;
     p {
@@ -156,8 +166,8 @@ ol.descriptions {
 
 
 // prev/next buttons
-a.prev,
-a.next {
+a.prev-decade,
+a.next-decade {
   display: inline-block;
   &.show {
     display: inline-block;
@@ -170,15 +180,15 @@ a.next {
     content: "";
     display: table;
   }
-  .prev {
+  .prev-decade {
     float: left;
   }
-  .next {
+  .next-decade {
     float: right;
   }
 }
-.prev,
-.next {
+.prev-decade,
+.next-decade {
   width: 60px;
   height: 60px;
   border: none;
@@ -196,7 +206,7 @@ a.next {
     z-index: -1;
   }
 }
-.next {
+.next-decade {
   &:before {
   border-top: 25px solid transparent;
   border-left: 40px solid transparentize(black, .5);
@@ -204,14 +214,63 @@ a.next {
   }
 }
 
-.prev {
+.prev-decade {
   &:before {
   border-top: 25px solid transparent;
   border-right: 40px solid transparentize(black, .5);
   border-bottom: 25px solid transparent;
   }
 }
-
-a.prev {
+// turn off the prev because we wont go back into time
+a.prev-decade {
   display: none;
 }
+
+
+
+
+// custom styling, non layout related
+a.open-gallery {
+  background: transparentize(#e7e7e7, .2);
+  color: black;
+  display: inline-block;
+  padding: 5px 5px 4px;
+  font-size: .925rem;
+  margin-top: 1rem;
+  &:hover,
+  &:focus {
+    background: gray;
+    color: white;
+  }
+  &:active {
+    color: red;
+  }
+}
+
+// inside the descriptions
+ul.additional-events {
+  list-style-type: square;
+  margin: 1rem 0;
+  margin-left: 1rem;
+  padding-left: 20px;
+}
+ol.descriptions {
+  > li {
+    padding-bottom: 20px;
+    border-bottom: solid 1px transparentize(#e7e7e7, .5);
+    //font-size: .925rem;
+    width: 96%;
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  p.age {
+    text-transform: uppercase;
+    border-bottom: solid 1px transparentize(#e7e7e7, .2);
+    margin-bottom: 1rem !important;
+    padding-bottom: 4px;
+    font-size: .875rem;
+  }
+}
+
+
+
