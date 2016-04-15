@@ -9,7 +9,7 @@
       ],
       "description" : "8lbs., and 12ounces.",
       "status" : "born at rose hospital.",
-      "additional_events" : ["event 1", "event 2"]
+      "additional_events" : ["hairy, allegedly had hair even on my palms like a monkey", "fat, lots of rolls. the peanut butter my mom ate in her third trimester to gain weight payed off."]
     },{
       "age": "1",
       "location": "Snowmass, CO, USA",
@@ -23,7 +23,7 @@
       "location": "Snowmass, CO, USA",
       "thumbnail" : "img/thumbnail/age002.jpg",
       "status" : "going to China (conoco) with Harry",
-      "additional_events" : ["at one point was convinced i could fly", "rode a black horse named Winnie"],
+      "additional_events" : ["at one point was convinced i could fly", "in retrospect, glad i never jumped off the deck.", "rode a black horse named Winnie or Magic, facts TBD."],
       "gallery" : [
         "img/gallery/age002.jpg"
       ]
@@ -32,6 +32,7 @@
       "location": "Snowmass, CO, USA",
       "thumbnail" : "img/thumbnail/age003.jpg",
       "status" : "doing barn kid things",
+      "additional_events" : ["had a friend who had gerbils", "vividly accurate memories, of details of my grandmothers Jeffersonian house in Snowmass", "going to bed i could hear the horses below"],
       "gallery" : [
         "img/gallery/age003.jpg"
       ]
@@ -40,6 +41,7 @@
       "location": "Mauai, HI, USA",
       "thumbnail" : "img/thumbnail/age004.jpg",
       "status" : "watching mom jump off waterfall in pink bikini",
+      "additional_events" : ["the house we lived in had green parrots outside that would stay outside in the backyard, as outdoor pet parrots.", "they were talking parrots."],
       "gallery" : [
         "img/gallery/age004.jpg"
       ]
@@ -47,7 +49,8 @@
       "age": "5",
       "location": "Snowmass, CO, USA",
       "thumbnail" : "img/thumbnail/age005.jpg",
-      "status" : "riding Winnie, exploring the barn",
+      "status" : "kindergarden at Mrs. Grants in Basalt, CO",
+      "description" : "during nap time, Mrs. Grant or her assistant would select a special student to not use nap time. This student would get to do an alternative task of setting up a group activity. When I was selected, my activity was to draw the outline of a drawing and have the class color it in. I drew a princess.",
       "gallery" : [
         "img/gallery/age005.jpg"
       ]
@@ -55,7 +58,8 @@
       "age": "6",
       "location": "Aspen, CO, USA",
       "thumbnail" : "img/thumbnail/age006.jpg",
-      "status" : "preschool at Mrs. Grant's",
+      "status" : "1st grade, sharing a bunk bed with Lakshmi",
+      "additional_events" : ["dad lived in albequerque in a place with pink carpet", "Lakshmi would stay up at night and color old books, illuminated by the light of a plug in globe.", "We'd also go to the cookie monster, aka Paradise Bakery &amp; Cafe, of which we were reluctant to share with our parents.", "We'd go skiing on Buttermilk with the WeeSki"],
       "gallery" : [
         "img/gallery/age006.jpg"
       ]
@@ -64,20 +68,17 @@
       "location": "Roatan, Honduras | Orlando, FL, USA",
       "thumbnail" : "img/thumbnail/age007.jpg",
       "status" : "2nd grade, the uniform year",
+      "additional_events" : ["Lived with Dad for a few months in Orlando, where I went to a Catholic school and wore a uniform with green, red, blue and yellow.","went to Disneyland once but it rained and the amusement park closed",  "moved to Honduras where my mom taught scooba-diving with a man named Phil Weir", "was considered the only gringo kid on the island, and I didn't have an appetite to learn Spanish, unfortunately.", "My uniform was marroon and it had a crusted embroidery in the top left pocket.", "I bought one of my favorite purses, a colorfully stitched together purse, here."],
       "gallery" : [
-        "img/gallery/age001.jpg",
-        "img/gallery/age002.jpg",
-        "img/gallery/age003.jpg",
-        "img/gallery/age004.jpg",
-        "img/gallery/age005.jpg",
-        "img/gallery/age006.jpg",
         "img/gallery/age007.jpg"
       ]
     },{
       "age": "8",
       "location": "San Diego, CA, USA",
       "thumbnail" : "img/thumbnail/age008.jpg",
-      "status" : "3rd Grade, the Waldorf School. Learn to knit and crochet.",
+      "status" : "3rd Grade, the Waldorf School.",
+      "description" : "There was a tie-die dress I wore, and loved it, when we went one time to the bay for some rollerblading.",
+      "additional_events" : ["moved to San Diego as my mom met Phil Merril of which became a semi-long term relationship.", "Learned to knit and crochet at school.", "Was really into Michael Jackson.", "Our home  had a spiral staircase that led to a home office.", "Dad moved to Denver."],
       "gallery" : [
         "img/gallery/age008.jpg"
       ]
@@ -86,6 +87,8 @@
       "location": "San Diego, CA, USA / Crested Butte, CO, USA",
       "thumbnail" : "img/thumbnail/age009.jpg",
       "status" : "4th Grade, move back to the mountains.",
+      "description" : "Took class with Nancy Vogel and I still remember most the girls in my grade: Kasey Bailey Whitney Lauren Lulu Rita Lauren Jessica",
+      "additional_events" : ["honestly felt like I owned the town of Crested Butte.", "was really into TLC, Seal, and MTV", "began to chat in AOL chatrooms of all natures.","did a kickass report on Gnomes",  "switched to snowboarding", "one time skipped school to go hang out at Peanut Lake", "Dad moved to Houston, TX, where I spent some time with him. We lived in a pink house with a magnificent tree I loved to sit in, in the front yard.", "Spent time at the YMCA."],
       "gallery" : [
         "img/gallery/age009.jpg"
       ]
@@ -94,17 +97,18 @@
       "location": "Crested Butte, CO, USA / St. Helena, CA, USA",
       "thumbnail" : "img/thumbnail/age010.jpg",
       "status" : "5th grade, back to California to live in a haunted house.",
-      "description" : "Favorite movie: Harriet the Spy",
-      "additional_events" : ["Played Ophelia in 'Something's Rotten in the State of Denmark'"],
+      "description" : "Favorite movie: Harriet the Spy. The house we lived in was separated into 5 houses, and allegedly a man shot himself there before we moved in.",
+      "additional_events" : ["Spent a lot of time wondering the perimeters, climbing the roof, spying on Phil.","dad married former wife who will go un-named."],
       "gallery" : [
         "img/gallery/age010.jpg"
       ]
     },{
       "age": "11",
-      "location": "Crested Butte, CO, USA / St. Helena, CA, USA",
+      "location": "St. Helena, CA, USA",
       "thumbnail" : "img/thumbnail/age011.jpg",
       "status" : "6th grade, move into town home with viniard in backyard, hang out on roof most days.",
       "description" : "Carved a Ghourd in school. Took a class from the same voice actor as the Little Ceasar's character that says 'Pizza Pizza'",
+      "additional_events" : ["Played Ophelia in 'Something's Rotten in the State of Denmark'", "switched schools and went to a school in Calistoga for a few months."],
       "gallery" : [
         "img/gallery/age011.jpg"
       ]
