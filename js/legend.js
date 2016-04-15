@@ -272,7 +272,11 @@ LifeTimeLine.listen_to_all_major_click_events = function(data) {
     //$(this).find('> a').trigger('click');
     var this_matching_age = $(this).attr('data-legend-age');
     var $this_matching_pin = $legend_container.find('li[data-legend-age="'+this_matching_age+'"] a.pin');
-    $this_matching_pin.trigger('click');
+    $this_matching_pin.toggleClass("activated");
+    setTimeout(function () {
+      $this_matching_pin.toggleClass("activated");
+      $this_matching_pin.trigger('click');
+    }, 50);
   });
   
   $('.thumb.has-gallery').hover(function() {

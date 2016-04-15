@@ -1,0 +1,45 @@
+// make the modal gallery shorter images if the height is a smaller device
+@media only screen and (max-height: 900px) {
+  ul.gallery.prev-next-gallery {
+    background: transparentize(black, .5);
+    li {
+      img {
+        max-width: 400px;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  ul.gallery.prev-next-gallery {
+    background: transparentize(black, .5);
+    li {
+      img {
+        max-width: 260px;
+        height: auto !important;
+      }
+    }
+  }
+  // more space up top
+  .modal {
+    .modal-wrap {
+      .message {
+        margin-top: 15%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-height: 625px) and (min-width: 900px) {
+  ul.gallery.prev-next-gallery {
+    background: transparentize(black, .5);
+    li {
+      img {
+        max-height: 440px;
+        width: auto !important;
+      }
+    }
+  }
+}
+
