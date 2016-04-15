@@ -1,5 +1,5 @@
 // set an age
-var age = 65;
+var age = 30;
 // know how many decades, for the legend and thumbnails containers
 var num_of_decades = Math.ceil(age / 10);
 // main containers
