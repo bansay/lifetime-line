@@ -12,7 +12,9 @@ LifeTimeLine.add_the_legend_list_items_and_pagination = function(age, callback) 
   $thumbnails_container.css("width", legend_and_thumbnail_container_width + "%");
   // show age to user so they feel reassured
   $('#age').empty();
+  $('#lifetime-user').empty();
   $('#age').text(age);
+  $('#lifetime-user').text(username);
 
 
   // function for legend decade list items
