@@ -15,7 +15,7 @@
       "location": "Snowmass, CO, USA",
       "thumbnail" : "img/thumbnail/age001.jpg",
       "status" : "parents separate",
-      "additional_events" : ["don't have any memories of my parents together, aside from the back and forth dropping-me-off visits they'd have in Avon, CO, or somewhere off I-70."],
+      "additional_events" : ["no memories of my parents together", "lived mostly with mom, would visit dad for long stays over summer and other.", "they'd usually meet to drop me off / back and forth, in Avon, CO, or some place else off I-70"],
       "gallery" : [
         "img/gallery/age001.jpg"
       ]
@@ -24,7 +24,7 @@
       "location": "Snowmass, CO, USA",
       "thumbnail" : "img/thumbnail/age002.jpg",
       "status" : "going to China (Conoco) with Harry",
-      "additional_events" : ["at one point was convinced i could fly", "in retrospect, glad i never jumped off the deck.", "rode a black horse named Winnie or Magic, facts TBD."],
+      "additional_events" : ["at one point was convinced i could fly", "in retrospect, glad i never jumped off the deck.", "rode a black horse named Winnie or Magic", "there was an orange barn cat", "I loved dandelions"],
       "gallery" : [
         "img/gallery/age002.jpg"
       ]
@@ -51,8 +51,8 @@
       "location": "Snowmass, CO, USA",
       "thumbnail" : "img/thumbnail/age005.jpg",
       "status" : "kindergarden at Mrs. Grants in Basalt, CO",
-      "description" : "I recall during naptime, Mrs. Grant or her assistant would select a student during nap time to complete a special task for the class. When I was selected, I got to draw an outlined figure, for the class to color in. I drew a princess with puffy shoulder pads, in a polkadot dress.",
-      "additional_events" : ["mom had boy-friend Kenichi, who taught me how to count in Japanese. He later opened a successful restaurant in Aspen"],
+      "description" : "During naptime, Mrs. Grant would select one special student to stay up, to complete a special task for the class as a whole after the nap. When I was selected, I got to draw an outlined figure, for the class to color. I drew a princess with puffy shoulder pads, in a polkadot dress.",
+      "additional_events" : ["mom had boy-friend Kenichi, who taught me how to count in Japanese. He later opened a successful restaurant in Aspen, called Kenichi"],
       "gallery" : [
         "img/gallery/age005.jpg"
       ]
@@ -61,16 +61,16 @@
       "location": "Aspen, CO, USA",
       "thumbnail" : "img/thumbnail/age006.jpg",
       "status" : "1st grade, sharing a bunk bed with Lakshmi",
-      "additional_events" : ["Lakshmi and I would stay up at night and color old books, illuminated with the help of a globe light.", "We'd also go to the &ldquo;cookie monster&rsquo;s&rdquo;, aka Paradise Bakery &amp; Cafe, of which we were reluctant to share the valued ice cream with our parents.", "We'd go skiing on Buttermilk with the WeeSki", "dad moved to Houston for his first stint in Texas"],
+      "additional_events" : ["Lakshmi and I would stay up at night and color old books, illuminated by the light of a globe light.", "We'd also go to the &ldquo;cookie monster&rsquo;s&rdquo;, aka Paradise Bakery &amp; Cafe, of which we were reluctant to share the valued ice cream with our parents.", "We'd go skiing on Buttermilk with the WeeSki", "dad moved to Houston for his first stint in Texas"],
       "gallery" : [
         "img/gallery/age006.jpg"
       ]
     },{
       "age": "7",
-      "location": "Roat&aacute;n, Honduras | Orlando, FL, USA",
+      "location": "Orlando, FL, USA | Roat&aacute;n, Honduras",
       "thumbnail" : "img/thumbnail/age007.jpg",
-      "status" : "2nd grade, the uniform year",
-      "additional_events" : ["Moved in with Dad for a few months in Orlando, where I attended a Catholic school", "Wore a uniform with green, red, blue and yellow.","my dad would flip me back and upside-down behind the couch to get my hair in a perfect pony tail.", "went to Disneyland once but it rained and the amusement park closed",  "moved to Honduras where my mom taught scooba-diving with a man named Phil Weir", "was considered the only gringo kid on the island, and I didn't have an appetite to learn Spanish, unfortunately.", "My uniform in Roat&aacute;n was marroon and it had a crusted embroidery in the top left pocket.", "I bought one of my favorite purses of all time, a colorfully and hand-sewn/together shoulder pouch."],
+      "status" : "2nd grade, &ldquo;The Uniform Year&rdquo;",
+      "additional_events" : ["Moved in with Dad for a few months in Orlando, where I attended a Catholic school", "The catholic schools' uniform was mostly green, with red, blue and yellow.","Dad would flip me behind, and upside-down the couch to get my hair in a perfect pony tail.", "This is also appx. the time my dad started making me mixed tapes with all the best, The BoDeans, INXS, Jude Cole, George Thoroughgood", "went to Disneyland once but it rained and the amusement park closed", "Dad and I would watch Cops on TV and the amazing thunder/lightening storms in Orlando",  "moved to Honduras where my mom taught scooba-diving with a man named Phil Weir", "was considered the only gringo kid on the island, and I didn't have an appetite to learn Spanish, unfortunately.", "My uniform in Roat&aacute;n was marroon and it had a crusted embroidery in the top left pocket.", "I bought one of my favorite purses of all time, a colorfully and hand-sewn/together shoulder pouch I still have in safe-keepings."],
       "gallery" : [
         "img/gallery/age007.jpg"
       ]
@@ -90,7 +90,7 @@
       "thumbnail" : "img/thumbnail/age009.jpg",
       "status" : "4th Grade, move back to the mountains.",
       "description" : "Took class with Nancy Vogel and I still remember most the girls in my grade: Kasey Bailey Whitney Lauren Lulu Rita Lauren Jessica",
-      "additional_events" : ["honestly felt like I owned the town of Crested Butte.", "was really into TLC, Seal, and MTV", "began to chat in AOL chatrooms, chatrooms that is, of all natures.","did a kickass report on Gnomes",  "switched to snowboarding", "one time skipped school to go hang out at Peanut Lake", "Dad moved to Houston, TX, where I spent some time with him. We lived in a pink house with a magnificent tree I loved to sit in, in the front yard.", "Spent time at the YMCA.", "I remember cockroaches in Houston."],
+      "additional_events" : ["honestly felt like I owned the town of Crested Butte.", "was really into TLC, Seal, and MTV","Played Anansi the Spider in a school play", "began to chat in AOL chatrooms, chatrooms that is, of all natures.","did a kickass report on Gnomes",  "switched to snowboarding", "Phil's son Mike Merrill lived with us for a while, he was 18, and I thought he was SO cool.", "one time skipped school to go hang out at Peanut Lake","Mom painted a rendition of Matisse's &ldquo;Icarus&rdquo; on my bedroom closet door", "Dad moved to Houston, TX, where I spent some time with him. We lived in a pink house with a magnificent tree in the front yard, great for sitting in.", "Spent time at the YMCA.", "I remember cockroaches in Houston, and I didn't like them.", "One girl at the YMCA, I recall, had no thumbs. She was going to get surgery to put her big toes on her hands for thumbs."],
       "gallery" : [
         "img/gallery/age009.jpg"
       ]
@@ -99,8 +99,8 @@
       "location": "Crested Butte, CO, USA / St. Helena, CA, USA",
       "thumbnail" : "img/thumbnail/age010.jpg",
       "status" : "5th grade, back to California to live in a haunted house.",
-      "description" : "Favorite movie: Harriet the Spy. The house we lived in was separated into 5 houses, and allegedly a man shot himself there before we moved in.",
-      "additional_events" : ["Spent a lot of time wondering the perimeters, climbing the roof, spying on Phil.", "considered living in the guest house but it was small, creepy, unkept and far from the main house", "at school, my fondest memory was carving a gourd with a sharp, heated metal tip.", "got really into Track &amp; Field, and PE was a big deal at my school. Ended up running my fastest mile there, at 7.51minutes", "had a good friend named Pat who had an awesome tree house. He was a couple years older but we were just friends.", "trips to Mexico including San Miguel de Allende, and trips to Lake Powell."],
+      "description" : "Favorite movie: Harriet the Spy. The house we lived in was separated into 5 houses, and allegedly a man shot himself there before we moved in. The middle school I went to, our mascot was The Blue Devil.",
+      "additional_events" : ["Spent a lot of time wondering the perimeters of our house, climbing the roof, spying on Phil.", "considered living in the guest house but it was small, creepy, unkept and far from the main house", "at school, my fondest memory was carving a gourd with a sharp, heated metal tip.", "got really into Track &amp; Field, and PE was a big deal. Ended up running my fastest mile there, at 7.51minutes", "took my first typing class, and a computer class with animations.", "had a good friend named Pat who had an awesome tree house. He was a couple years older but we were just friends.", "trips to Mexico including San Miguel de Allende, and trips to Lake Powell."],
       "gallery" : [
         "img/gallery/age010.jpg"
       ]
@@ -110,7 +110,7 @@
       "thumbnail" : "img/thumbnail/age011.jpg",
       "status" : "6th grade, moved out of haunted house and into a town home with viniard in backyard",
       "description" : "Took a class from the same voice actor as the Little Ceasar's character that says 'Pizza Pizza'",
-      "additional_events" : ["Played Ophelia in 'Something's Rotten in the State of Denmark'", "switched schools and went to a school in Calistoga for a few months.", "Lived next door to some Brits, who we went to a trip to the Baja California Peninsula where we got to go on a tiny cigar boat and see a momma whale and a baby whale, of which someone on the boad pet, not sure it was me or someone else.", "back at home, hung out on roof most days."],
+      "additional_events" : ["Played Ophelia in &ldquo;Something's Rotten in the State of Denmark&rdquo;", "switched schools and went to a school in Calistoga for a few months.", "Lived next door to some Brits, who went to a trip with us to the Baja California Peninsula, where we got to go on a tiny cigar boat and see a momma whale and a baby whale, and someone on the boat got to pet the baby whale.", "Phil at this point had the twin engine, 6 seater, Cessna '8085 quebec'",  "back at home, hung out on the roof most days", "loved Scooby Doo", "loved French Silk ice cream"],
       "gallery" : [
         "img/gallery/age011.jpg"
       ]
@@ -118,9 +118,9 @@
       "age": "12",
       "location": "Cave Cree, AZ, USA / Care Free, AZ, USA",
       "thumbnail" : "img/thumbnail/age012.jpg",
-      "status" : "7th grade, Terravita gated community.",
-      "description" : "Both houses had a pool. In the 2nd house I was privileged and my mom let me live in the guest house.",
-      "additional_events" : ["the closet in the guest house had a hidden hiding area in the closet, uneasy to be seen unless you knew about it.", "was admittedly really into NSYNC", "good friends included Irena Lisa Lindsey Ashley Jessica, some of which we'd obsessively exchange notes with each other.", "had a really good math teach that taught me things I still use today, like the &ldquo;is/of&rdquo; technique for percentages.", "frequent trips to Lake Powell, we had a cigar boat there, the &ldquo;Karin Ann&rdquo;", "learning to water ski", "Dad married Molli, an extremely influential and loving step-mom (current) I get to have. With it came my wonderful sisters Kati and Lyndsi."],
+      "status" : "7th grade, moved into the Terravita gated community.",
+      "description" : "Moved twice in Terravita. Both houses had a pool. In the 2nd house, I was privileged - and my mom let me live in the guest house that was positioned at the front of the main house.",
+      "additional_events" : ["the closet in the guest house had a hidden hiding area in the closet, uneasy to be seen unless you knew about it.", "was admittedly really into NSYNC", "good friends included Irena Lisa Lindsey Ashley Jessica, some of which we'd obsessively exchange notes with each other.", "had a really good math teach that taught me things I still use today, like the &ldquo;is/of&rdquo; technique for percentages.", "frequent trips to Lake Powell, we had a cigar boat there, named the &ldquo;Karin Ann&rdquo;", "into water skiing and tubing", "Dad married Molli, an extremely influential and loving step-mom (current) I get to have. With it came my wonderful sisters, Kati (then 4) and Lyndsi (then 2)"],
       "gallery" : [
         "img/gallery/age012.jpg"
       ]
@@ -130,7 +130,7 @@
       "thumbnail" : "img/thumbnail/age013.jpg",
       "status" : "8th grade, back to the mountains.",
       "description" : "Was excited to be back in a small town and wear Birkenstocks",
-      "additional_events" : ["We had Ski PE during winter on thursdays/fridays", "Saw Tuck &amp; Patti perform live at the middle/high school.", "Performed in the 8th grade play, &ldquo;School House Rock&rdquo; where i kind of fibbed my song the 2nd of 3 nights, for &lsquo;The Great American Melting Pot&rsquo; (I got nervous).", "Dad and Molli came for the play and announced they were pregnant with brother Mitch."],
+      "additional_events" : ["We had Ski PE during winter on Thursdays &amp; Fridays, where we'd get out of class at 1pm and from 1:30-4:30 our PE class was up on the mountain.", "Saw Tuck &amp; Patti perform live at the middle/high school.","I tried basketball for the first and only time in 8th grade. It was clear it was not my sport when the one time I got the ball, I shot at the wrong hoop.",  "Performed in the 8th grade play, &ldquo;School House Rock&rdquo;, and I got to sing &lsquo;The Great American Melting Pot&rsquo;", "Dad and Molli came for the play and announced they were pregnant with brother Mitch.", "For 8th grade graduation, we sang the song &ldquo;525,600 minutes&rdquo;"],
       "gallery" : [
         "img/gallery/age013.jpg"
       ]
@@ -139,8 +139,8 @@
       "location": "Littleton, CO, USA",
       "thumbnail" : "img/thumbnail/age014.jpg",
       "status" : "Freshmen Year, move in with Dad, Molli, Kati, and Lyndsi.",
-      "description" : "Enroll at Heritage High School. Want to go to same school for 4 consecutive years. Mom was considering going to San Miguel de Allende and I decided to live with dad for high school. Was pleased with the wonderful people I had met along the way but was ready to sink my toes into an environment.",
-      "additional_events" : ["very few number of friends freshmen year", "volunteered during lunch break in school library, eating french fries and ranch in the back room alone", "Mitchell is born", "the cafeteria in High School was the most terrifying place I'd experienced. I was used to 10-20 students per class, HHS had 400-500 students in our class which was considered huge for me at the time."],
+      "description" : "Enroll at Heritage High School. Want to go to same school for 4 consecutive years. Mom was considering going to San Miguel de Allende and I decided to live with dad for high school. Was happy with mom and getting to live in so many wonderful places, but at the time was ready to experience a normal high school life.",
+      "additional_events" : ["very few number of friends freshmen year", "volunteered during lunch break in school library, eating french fries and ranch in the back room, usually alone", "brother Mitchell is born", "the cafeteria in High School was the most terrifying place I'd experienced. I was used to 10-20 students per class, HHS had 400-500 students in our class which was considered pretty much humongous"],
       "gallery" : [
         "img/gallery/age014.jpg"
       ]
