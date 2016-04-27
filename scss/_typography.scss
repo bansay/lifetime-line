@@ -1,0 +1,26 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+p.age,
+p.location,
+p.status {
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+p.age {
+  font-size: .875rem;
+}
+
+p.location,
+p.status {
+  font-size: .875rem;
+  font-weight: 700;
+  .data {
+    text-transform: none;
+    letter-spacing: normal;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}

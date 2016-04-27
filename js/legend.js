@@ -165,7 +165,7 @@ LifeTimeLine.populate_the_rest_of_the_data = function(data) {
       }
       // deal with status
       if(typeof v.status !== 'undefined') {
-        $descriptions_container.find('li[data-legend-age="'+v.age+'"]').append('<p class="status">Status: <span>'+v.status+'</span></p>');
+        $descriptions_container.find('li[data-legend-age="'+v.age+'"]').append('<p class="status">Status: <span class="data">'+v.status+'</span></p>');
       }
       // deal with description
       if(typeof v.description !== 'undefined') {

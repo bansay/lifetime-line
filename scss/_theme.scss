@@ -1,5 +1,5 @@
 /* apply a natural box layout model to all elements, but allowing components to change */
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+//@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 
 html {
   box-sizing: border-box;
@@ -10,7 +10,6 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Source Sans Pro', sans-serif;
 }
 
 a {

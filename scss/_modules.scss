@@ -269,11 +269,15 @@ ol.descriptions {
     margin: 20px auto;
   }
   p.age {
-    text-transform: uppercase;
     border-bottom: solid 1px transparentize(#e7e7e7, .2);
     margin-bottom: 1rem !important;
     padding-bottom: 4px;
-    font-size: .875rem;
+  }
+  p.location {
+    
+  }
+  p.description {
+    margin: 1rem 0;
   }
 }
 
