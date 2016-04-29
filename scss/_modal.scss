@@ -100,14 +100,16 @@
     //width: 300%;
     text-align: center;
     margin-bottom: 15px;
+    display: table;
     &:after {
       clear: both;
       content: "";
       display: table;
     }
     li {
-      float: left;
-      display: inline-block;
+      //float: left;
+      display: table-cell;
+      vertical-align: middle;
     }
   }
 }

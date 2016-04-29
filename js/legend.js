@@ -242,7 +242,7 @@ LifeTimeLine.add_each_gallery_item = function(data, callback) {
   $.each(data, function(k, v) {
     var $container = $descriptions_container.find('li[data-legend-age="'+k+'"]').find('ul.gallery');
     $.each(v, function(inner_k, inner_v) {
-      $container.append('<li><img src="'+inner_v+'" alt="" /></li>');
+      $container.append('<li><a href="'+inner_v+'" target="_blank"><img src="'+inner_v+'" alt="" /></a></li>');
     });
   });
   callback();
