@@ -53,6 +53,10 @@ html,
 ol.legend li {
   font-weight: 400; }
 
+::selection {
+  background: red;
+  color: black; }
+
 ol, ul {
   list-style-type: none;
   margin: 0;
