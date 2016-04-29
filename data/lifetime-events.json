@@ -43,9 +43,11 @@
       "thumbnail" : "img/thumbnail/age004.jpg",
       "status" : "Watching mom jump off waterfall in pink bikini.",
       "description" : "Mom and I moved to Maui for a 4 month period.",
-      "additional_events" : ["There were green, talking parrots that lived outside our home.", "The parrots would stay outside in the backyard, as outdoor pets."],
+      "additional_events" : ["There were green, talking parrots that lived outside our home.", "The parrots would stay outside in the backyard, as outdoor pets.", "Mom had a friend named Roger who had ducks. We'd walk through a jungle to get to his house. I took a liking to one of his ducks who may as well have had no head, or so I thought. He lost an eye in fact due to a bad mixup with barbed wire, but I loved him anyway."],
       "gallery" : [
-        "img/gallery/age004.jpg"
+        "img/gallery/age004.jpg",
+        "img/gallery/age-detail-004-001-v2.jpg",
+        "img/gallery/age-detail-004-003-v2.jpg"
       ]
     },{
       "age": "5",
@@ -53,7 +55,7 @@
       "thumbnail" : "img/thumbnail/age005.jpg",
       "status" : "Kindergarden at Mrs. Grants in Basalt, CO",
       "description" : "During naptime, Mrs. Grant would select one special student to stay up and complete a special task for the rest of class to complete upon awakening. When I was selected, I drew the outlined figure of a princess, with puffy shoulder pads, in a polkadot dress.",
-      "additional_events" : ["Mom had boy-friend, Kenichi, who taught me how to count in Japanese. He later opened a successful restaurant in Aspen, called Kenichi.", "Was really into Raffi, Enya, Sade, James Taylor."],
+      "additional_events" : ["Mom had boy-friend, Kenichi, who taught me how to count in Japanese. He later opened a successful restaurant in Aspen.", "Was really into Raffi, Enya, Sade, James Taylor."],
       "gallery" : [
         "img/gallery/age005.jpg"
       ]

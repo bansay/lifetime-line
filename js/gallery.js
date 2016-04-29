@@ -54,9 +54,9 @@ LifeTimeLine.once_galleries_completed_set_gallery_css = function(callback) {
     $(this).find('ul.gallery.prev-next-gallery > li').css('width', gallery_lis_width);
     // setup the pagination for the list items
     if($(this).find('ul.gallery.prev-next-gallery > li').size() > 1) {
-      $(this).find('.message').append('<ul class="pagination"></ul>');
       // setup the pagination if there are more than 1 gallery item
-      $(this).find('.message').append('<a class="modal-previous" href="#">Previous</a><a class="modal-next" href="#">Next</a>');
+      $(this).find('.message').prepend('<a class="modal-previous" href="#">Previous</a><a class="modal-next" href="#">Next</a>');
+      $(this).find('.message').prepend('<ul class="pagination"></ul>');
       
     }
   });
