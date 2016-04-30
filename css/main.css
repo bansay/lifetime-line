@@ -335,8 +335,10 @@ ol.descriptions p.description {
       max-width: 260px;
       height: auto !important; }
 
+  .modal .cancel {
+    top: -32px; }
   .modal .modal-wrap .message {
-    margin-top: 15%; } }
+    margin-top: 21%; } }
 @media only screen and (max-height: 625px) and (min-width: 900px) {
   ul.gallery.prev-next-gallery {
     background: rgba(0, 0, 0, 0.5); }

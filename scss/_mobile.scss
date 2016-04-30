@@ -23,9 +23,12 @@
   }
   // more space up top
   .modal {
+    .cancel {
+      top: -32px;
+    }
     .modal-wrap {
       .message {
-        margin-top: 15%;
+        margin-top: 21%;
       }
     }
   }
