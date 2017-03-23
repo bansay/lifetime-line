@@ -1,5 +1,5 @@
 // set an age
-var age = 30;
+var age = 31;
 var username = "Brittany";
 // know how many decades, for the legend and thumbnails containers
 var num_of_decades = Math.ceil(age / 10);
