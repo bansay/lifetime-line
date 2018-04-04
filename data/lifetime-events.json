@@ -85,7 +85,7 @@
       "thumbnail" : "img/thumbnail/age008.jpg",
       "status" : "3rd Grade, the Waldorf School.",
       "description" : "Wore a tie-die dress while rollerblading along the bay area.",
-      "additional_events" : ["Mom and I moved to San Diego, as she met a man named Phil Merril, of whom I knew from 8-13.", "At school, learned to knit and crochet.", "Was really into Michael Jackson.", "Our home  had a spiral staircase that led to a home office.","Mom bought Max, and brother T (for Touble), two Shih Tzu's. We later gave away T as he was more of a lap dog, and we started to travel frequently.", "Dad relocated back to Denver.", "Dad relocated to Albequerque for a stint, where I visited him once and only recall the dark pink carpet.", "At the end of 3rd grade, moved back to the mountains, to live in the beloved town of Crusty Butt. Until the beginning of 5th grade, we lived in a house on Belleview, Ave.", "I recall early visits with my Nany and Papa - they had a bed for me in their town home, or so I believed it was all mine. Nany had a yellow parakeet kept in the kitchen, and Papa had a room of birds, kept in the basement. I'd unravel the wool strips for Papa while he watched Jeopardy, to help with the birds. Nany would take me to the old folks home, to visit a relative, I just loved the old people."],
+      "additional_events" : ["Mom and I moved to San Diego, as she met a man named Phil Merrill, of whom I knew from 8-13.", "At school, learned to knit and crochet.", "Was really into Michael Jackson.", "Our home  had a spiral staircase that led to a home office.","Mom bought Max, and brother T (for Touble), two Shih Tzu's. We later gave away T as he was more of a lap dog, and we started to travel frequently.", "Dad relocated back to Denver.", "Dad relocated to Albequerque for a stint, where I visited him once and only recall the dark pink carpet.", "At the end of 3rd grade, moved back to the mountains, to live in the beloved town of Crusty Butt. Until the beginning of 5th grade, we lived in a house on Belleview, Ave.", "I recall early visits with my Nany and Papa - they had a bed for me in their town home, or so I believed it was all mine. Nany had a yellow parakeet kept in the kitchen, and Papa had a room of birds, kept in the basement. I'd unravel the wool strips for Papa while he watched Jeopardy, to help with the birds. Nany would take me to the old folks home, to visit a relative, I just loved the old people."],
       "gallery" : [
         "img/gallery/age008.jpg",
         "img/gallery/age-detail-009-001-v3.jpg",
@@ -127,7 +127,7 @@
       "thumbnail" : "img/thumbnail/age012.jpg",
       "status" : "7th grade, moved into &ldquo;Terravita&rdquo;, a gated community.",
       "description" : "Lived in two homes in Terravita, and both houses had a pool. In the 2nd house, my mom let me live in the guest house that was positioned in the front of the main house.",
-      "additional_events" : ["The closet in the guest house had a hidden hiding area, uneasy to be seen and definitely a cool hiding place.","We got one of those colorful Mac's, a blue one. It had this one dinosaur game on it that I still remember being awesome.",  "Admittedly, was really into NSYNC, but not Backstreet Boys because it was a thing to choose one at my school. Had good friends, including Irena Lisa Lindsey Ashley Jessica Cristina, some of which whom we'd obsessively exchange notes with, in class, on folded up pieces of paper or even designated friend-note books.", "Had a great math teacher who'd use certain techniques I still use today, like the &ldquo;is/of&rdquo; method for calculating percentages.", "Trips to Lake Powell became a regular thing, we had a cigar boat there, nicknamed at the time, the &ldquo;Karin Ann&rdquo;. Could tell you I was pretty darn into water skiing and tubing.", "Dad found the love of his life, married Molli, an extremely influential and loving step-mom (current).", "With Molli came my wonderful, beautiful sisters, Kati was four, and Lyndsi was two, but when I first met them they were three and one."],
+      "additional_events" : ["The closet in the guest house had a hidden hiding area, uneasy to be seen and definitely a cool hiding place.","NSYNC fangirl. Loved Justin Timberlake but chose JC as my fav to offset the JT popularity.", "We got one of those colorful Mac's, a blue one. It had this one dinosaur game on it that I still remember being awesome.",  "Admittedly, was really into NSYNC, but not Backstreet Boys because it was a thing to choose one at my school. Had good friends, including Irena Lisa Lindsey Ashley Jessica Cristina, some of which whom we'd obsessively exchange notes with, in class, on folded up pieces of paper or even designated friend-note books.", "Had a great math teacher who'd use certain techniques I still use today, like the &ldquo;is/of&rdquo; method for calculating percentages.", "Trips to Lake Powell became a regular thing, we had a cigar boat there, nicknamed at the time, the &ldquo;Karin Ann&rdquo;. Could tell you I was pretty darn into water skiing and tubing.", "Dad found the love of his life, married Molli, an extremely influential and loving step-mom (current).", "With Molli came my wonderful, beautiful sisters, Kati was four, and Lyndsi was two, but when I first met them they were three and one."],
       "gallery" : [
         "img/gallery/age012.jpg"
       ]
@@ -311,10 +311,14 @@
       ]
     },{
       "age": "31",
-      "location": "Sugarloaf Mountain, Boulder, CO",
-      "status" : "Currently Living it.",
-      "description" : "Living it. TBD",
-      "additional_events" : ["Mom got a liver transplant March 19, 2017"]
+      "location": "Sugarloaf Mountain and Sunshine Canyone, Boulder, CO",
+      "thumbnail" : "img/thumbnail/age031.jpg?v=2",
+      "status" : "Began embracing being naked, again.",
+      "description" : "Returned to the woods.",
+      "additional_events" : ["Mom got a liver transplant March 19, 2017", "Began dating Rio.", "Went on lots of trips to hot springs, mostly clothing optional ones, thereby rekindling my love for being naked.", "Totaled the new Forrester on McClure pass and got a new Crosstrek as a replacement.", "Moved back to Sunshine Canyon.", "Found out I'm pregnant on December 19th."],
+      "gallery" : [
+        "img/gallery/age031.jpg?v-2"
+      ]      
     }
        
         

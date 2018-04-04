@@ -104,7 +104,8 @@ img {
 ol.thumbnails {
   text-align: center; }
   ol.thumbnails > li > ol {
-    position: relative; }
+    position: relative;
+    text-align: left; }
     ol.thumbnails > li > ol > li {
       width: 10%;
       background: rgba(255, 255, 255, 0.7); }
