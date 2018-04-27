@@ -5,7 +5,11 @@
       "location": "Denver, CO, USA",
       "thumbnail" : "img/thumbnail/age000.jpg",
       "gallery" : [
-        "img/gallery/age000.jpg"
+        "img/gallery/age00/age000.jpg",
+        "img/gallery/age00/age00-with-grandma-001.jpg,"
+        "img/gallery/age00/age00-with-nany-001.jpg",
+        "img/gallery/age00/age00-2-days-old-001.jpg",
+        "img/gallery/age00/age00-2-days-old-001.jpg",
       ],
       "description" : "8lbs., and 12ounces. Born to Karin Ann and Joseph Arthur.",
       "status" : "Born at Rose Medical Center.",
@@ -17,7 +21,7 @@
       "status" : "Parents Separate.",
       "additional_events" : ["No memories of my parents together.", "Lived mostly with mom, would visit dad for long stays, usually over summer and sometimes more.", "Parents would typically meet some place off I-70 for the transfer."],
       "gallery" : [
-        "img/gallery/age001.jpg"
+        "img/gallery/age01/age001.jpg"
       ]
     },{
       "age": "2",
@@ -26,7 +30,7 @@
       "status" : "Going to China (Conoco) with Harry.",
       "additional_events" : ["At one point in the early years, I was almost convinced I could fly.", "In retrospect, glad I never jumped off the deck.", "Rode a black horse named Winnie or Magic.", "We had an orange barn cat.", "Dandelions were for sure my favorite flower."],
       "gallery" : [
-        "img/gallery/age002.jpg"
+        "img/gallery/age02/age002.jpg"
       ]
     },{
       "age": "3",
@@ -35,7 +39,7 @@
       "status" : "Doing barn kid things.",
       "additional_events" : ["A friend of mine with red hair had gerbils.", "Vividly remember the details of my grandmother Ann's old Jeffersonian house on the hill.", "Going to bed at night, the horses below would neigh. Mom and I lived above the barn, in an apartment."],
       "gallery" : [
-        "img/gallery/age003.jpg"
+        "img/gallery/age03/age003.jpg"
       ]
     },{
       "age": "4",
@@ -45,9 +49,9 @@
       "description" : "Mom and I moved to Maui for a 4 month period.",
       "additional_events" : ["There were green, talking parrots that lived outside our home.", "The parrots would stay outside in the backyard, as outdoor pets.", "Mom had a friend named Roger who had ducks. We'd walk through a jungle to get to his house. I took a liking to one of his ducks who may as well have had no head, or so I thought. He lost an eye in fact due to a bad mixup with barbed wire, but I loved him anyway."],
       "gallery" : [
-        "img/gallery/age004.jpg",
-        "img/gallery/age-detail-004-001-v2.jpg",
-        "img/gallery/age-detail-004-003-v2.jpg"
+        "img/gallery/age04/age004.jpg",
+        "img/gallery/age04/age-detail-004-001-v2.jpg",
+        "img/gallery/age04/age-detail-004-003-v2.jpg"
       ]
     },{
       "age": "5",
@@ -57,7 +61,7 @@
       "description" : "During naptime, Mrs. Grant would select one special student to stay up and complete a special task for the rest of class to complete upon awakening. When I was selected, I drew the outlined figure of a princess, with puffy shoulder pads, in a polkadot dress.",
       "additional_events" : ["Mom had boy-friend, Kenichi, who taught me how to count in Japanese. He later opened a successful restaurant in Aspen.", "Was really into Raffi, Enya, Sade, James Taylor."],
       "gallery" : [
-        "img/gallery/age005.jpg"
+        "img/gallery/age05/age005.jpg"
       ]
     },{
       "age": "6",
@@ -67,7 +71,7 @@
       "description" : "Shared a bunk bed with Lakshmi Case. We were like sisters, and we'd stay up late at night and color old books, illuminated with the light of our globe light. We'd also go to &ldquo;cookie monster's&rdquo;, aka Paradise Bakery &amp; Cafe, and get ice cream &mdash; of which we were reluctant to share with our parents.",
       "additional_events" : ["Mom bought me Mr. Bigg, my beloved first cat. He was a white Persian with green eyes who lived for 16 years. Lakshmi got Shiva, Mr. Bigg's sister.", "We used to go skiing on Buttermilk, with the WeeSki harness.", "Dad moved to Houston for his first stint in Texas, while working for Continental Airlines. He'd occasionally drop me off at the YMCA when he'd go to work. I recall a young girl there, a friend who had no thumbs. She was, however, fortunately planning on having a surgery, to which her big toes would become her thumbs."],
       "gallery" : [
-        "img/gallery/age006.jpg"
+        "img/gallery/age06/age006.jpg"
       ]
     },{
       "age": "7",
@@ -77,7 +81,7 @@
       "description" : "Moved in with Dad for a few months in Orlando, where I attended a Catholic school. Later, moved to Honduras for 9 months, where I was the only gringo kid on the island.",
       "additional_events" : ["The Catholic schools' uniform was mostly green, with red, blue and yellow lines running horizontal and diagonal. Dad was good at getting my hair in a perfectly tight pony tail, by flipping me up and behind the couch, using gravity to his leverage.", "This is also appx. around the time he started making me mixed tapes with all the best: The BoDeans, INXS, Jude Cole, George Thoroughgood, Tom Petty.", "We went to Disneyland, yet it rained and they closed.", "Dad and I would sometimes watch the TV show &ldquo;Cops&rdquo;. We'd also watch the amazing lightening/thunder storms in Orlando, much to fawn over.",  "When mom and I got to Honduras, mom taught scooba-diving with a man named Phil Weir. Dad came for a visit, too. I still recall the picture book they gave me to help learn Spanish, but unfortunately at the time I was not that interested in learning.", "My uniform in Roat&aacute;n was maroon, and it had a crusted embroidery on the pocket, with gold stitches.", "I bought one of my favorite purses in Honduras, a colorfully and hand-sewn purse of which I still have, in safe-keepings.", "Got 7 stitches in Honduras for dropping a glass of orange juice on my foot. The glass cut the side of my inner ankle but there is no longer a scar."],
       "gallery" : [
-        "img/gallery/age007.jpg"
+        "img/gallery/age07/age007.jpg"
       ]
     },{
       "age": "8",
@@ -87,9 +91,9 @@
       "description" : "Wore a tie-die dress while rollerblading along the bay area.",
       "additional_events" : ["Mom and I moved to San Diego, as she met a man named Phil Merrill, of whom I knew from 8-13.", "At school, learned to knit and crochet.", "Was really into Michael Jackson.", "Our home  had a spiral staircase that led to a home office.","Mom bought Max, and brother T (for Touble), two Shih Tzu's. We later gave away T as he was more of a lap dog, and we started to travel frequently.", "Dad relocated back to Denver.", "Dad relocated to Albequerque for a stint, where I visited him once and only recall the dark pink carpet.", "At the end of 3rd grade, moved back to the mountains, to live in the beloved town of Crusty Butt. Until the beginning of 5th grade, we lived in a house on Belleview, Ave.", "I recall early visits with my Nany and Papa - they had a bed for me in their town home, or so I believed it was all mine. Nany had a yellow parakeet kept in the kitchen, and Papa had a room of birds, kept in the basement. I'd unravel the wool strips for Papa while he watched Jeopardy, to help with the birds. Nany would take me to the old folks home, to visit a relative, I just loved the old people."],
       "gallery" : [
-        "img/gallery/age008.jpg",
-        "img/gallery/age-detail-009-001-v3.jpg",
-        "img/gallery/age-detail-009-002-v2.jpg"
+        "img/gallery/age08/age008.jpg",
+        "img/gallery/age08/age-detail-009-001-v3.jpg",
+        "img/gallery/age08/age-detail-009-002-v2.jpg"
       ]
     },{
       "age": "9",
@@ -99,7 +103,7 @@
       "description" : "Took Nancy Vogel's class in 4th Grade. Still remember almost all the girls in my grade: Kasey Bailey Whitney Lauren Lulu Rita Leah Lacey Jessica. We were all pretty tight, to say the least.",
       "additional_events" : ["Was into TLC, Seal, and MTV.","Purchased a very kickass townie bike for $20 from a neighbor. It was a blue mini cruiser with a black banana seat, and U handle bars.", "Acted in a play as Anansi the Spider.", "Began to &ldquo;chat&rdquo; in AOL chatrooms, chatrooms that is of all natures.","Wrote a kickass report on Gnomes.", "Learned to snowboard with Lulu and Mike Merrill. Mike lived with us for a little while in CB, he was 18 way cool.", "Lulu and I once skipped school to go hang out at Peanut Lake.", "Mom painted a copy of Matisse's &ldquo;Icarus&rdquo; on my bedroom closet door.", "Dad moved to Houston, TX, where I spent some time with him. We lived in house painted baby pink. It had a magnificent tree in the front yard, great for sitting in.", "I remember cockroaches in Houston, and I was unfond of them."],
       "gallery" : [
-        "img/gallery/age009.jpg"
+        "img/gallery/age09/age009.jpg"
       ]
     },{
       "age": "10",
@@ -109,7 +113,7 @@
       "description" : "The first house we lived in Northern California was separated into 5 houses, and allegedly a man shot himself there before we moved in, but we didn't know that until after living there for several months.",
       "additional_events" : ["Favorite movie: Harriet the Spy. Spent a lot of time wondering the perimeters of our house, climbing the roof, spying on Phil, spying on my mom. There was a bug problem in this house, these bugs, rather bettles, had red butts. After finding out about the suicide I blamed the bug problem on his ghost never leaving.", "When we first moved in I considered living in the small guest house that was separated from the main house. However it was small, creepy, a little unkept, and actually kinda far so I never did.", "At school, my fondest memory was carving a gourd with a sharp, heated metal tip. I don't recall if the assingment was to make a mask but that's what I did.", "Got really into Track &amp; Field, and PE was a big deal at my school. Our mascot was the Blue Devil. Ended up running maybe my fastest mile there, at 7.51minutes. At this school is where I took my first typing class, and this computer class also taught us intro to animations &mdash; of which I recall animating a slice of pizza running across the screen, among other things.", "A trip to Utah for a wedding was a near death experience, or so it felt. We rented a plane as Phil was a Pilot, and the plane had a malfunction. The airport carpeted the runway and we crash-landed due to the landing wheels never going down. Factually speaking, it was scary.", "Mom and I also went on a cruise to Alaska, with the Merrill family. Went to Denali. Saw a day with 24hrs of light. At this point I was really into cards, card tricks, and card games. You'd usually find me with a deck in my hands."],
       "gallery" : [
-        "img/gallery/age010.jpg"
+        "img/gallery/age10/age010.jpg"
       ]
     },{
       "age": "11",
@@ -119,7 +123,7 @@
       "description" : "Played a lead role, Ophelia, in the play &ldquo;Something's Rotten in the State of Denmark&rdquo;.",
       "additional_events" : ["In the town home, our neighbors were from Britain. The 18yr old boy's name was Christopher. They went to a trip with us to the Baja California Peninsula, where we got to go on a tiny cigar boat and see a momma whale and a baby whale, and someone on the boat got to pet the baby whale, it may have been me but I don't recall for sure. Phil at this point had the twin engine, 6 seater, Cessna '8085 quebec'.", "Took a class from the voice actor who provided Little Ceasar's with the little character that says 'Pizza Pizza'.", "Back at home, hung out on the roof most days. Inside, watched a lot of Scooby Doo. This is also where I first discovered the ice cream flavor, French Silk. Still a favorite.", "Had a good friend named Pat who had an awesome tree house. He was on AIM, we'd chat. He was a couple years older, and we were just friends. Switched schools and went to a school in Calistoga for a few months before moving to Arizona.", "At some point, dad moved back to Denver from Texas for the final time. He settled in the Denver area and when I'd come visit him, I recall visiting my cousins a bunch either when my dad was at work or not, and Derek and Daina Ansay the most. We'd build incredible fort structures with moving boxes in their basement, and hit the Heritage Greens neighborhood pool with our ham and mustard sandiches, frequently. Also, Monopoly."],
       "gallery" : [
-        "img/gallery/age011.jpg"
+        "img/gallery/age11/age011.jpg"
       ]
     },{
       "age": "12",
@@ -129,7 +133,7 @@
       "description" : "Lived in two homes in Terravita, and both houses had a pool. In the 2nd house, my mom let me live in the guest house that was positioned in the front of the main house.",
       "additional_events" : ["The closet in the guest house had a hidden hiding area, uneasy to be seen and definitely a cool hiding place.","NSYNC fangirl. Loved Justin Timberlake but chose JC as my fav to offset the JT popularity.", "We got one of those colorful Mac's, a blue one. It had this one dinosaur game on it that I still remember being awesome.",  "Admittedly, was really into NSYNC, but not Backstreet Boys because it was a thing to choose one at my school. Had good friends, including Irena Lisa Lindsey Ashley Jessica Cristina, some of which whom we'd obsessively exchange notes with, in class, on folded up pieces of paper or even designated friend-note books.", "Had a great math teacher who'd use certain techniques I still use today, like the &ldquo;is/of&rdquo; method for calculating percentages.", "Trips to Lake Powell became a regular thing, we had a cigar boat there, nicknamed at the time, the &ldquo;Karin Ann&rdquo;. Could tell you I was pretty darn into water skiing and tubing.", "Dad found the love of his life, married Molli, an extremely influential and loving step-mom (current).", "With Molli came my wonderful, beautiful sisters, Kati was four, and Lyndsi was two, but when I first met them they were three and one."],
       "gallery" : [
-        "img/gallery/age012.jpg"
+        "img/gallery/age12/age012.jpg"
       ]
     },{
       "age": "13",
@@ -139,7 +143,7 @@
       "description" : "Was excited to be back in a small town and wear Birkenstocks and breath the fresh mountain air.",
       "additional_events" : ["We had Ski PE during winter on Thursdays &amp; Fridays where school would get out at 1 and from 1:30-4:30 our PE was up on the mountain. Pretty dope.", "Saw Tuck &amp; Patti perform live at the middle/high school.","Tried basketball for the first and only time, in 8th grade. It was a competitive team I played on, and when I got the ball for the first time in a game, I ran down and shot it at the wrong hoop. It's quite alright, I just realized I much prefer the game of HORSE after that.",  "Performed in the 8th grade play, &ldquo;School House Rock&rdquo;, and got to sing the song, &ldquo;The Great American Melting Pot&rdquo;, solo.", "Dad and Molli came for the play, and announced they were pregnant with brother Mitchell.", "We sang the song &ldquo;525,600 minutes&rdquo;, for 8th grade graduation.", "The summer before 9th grade, got to go on a trip to Kauai, Hawaii, through Telluride Academy. It was for 3 weeks, backpacking and camping. We hiked into Waimea Canyon for several days, travelled across the entire island, it was a group of 11 of us. Even had a layover in Cali, and got first class on our flight there. It was pretty much incredible all around, thanks Mom."],
       "gallery" : [
-        "img/gallery/age013.jpg"
+        "img/gallery/age13/age013.jpg"
       ]
     },{
       "age": "14",
@@ -149,7 +153,7 @@
       "description" : "Enroll at Heritage High School. Wanted to go to same school for 4 consecutive years. Mom was considering going to San Miguel de Allende and I decided to live with dad for high school. Was happy with experiencing so many wonderful places, yet wanted to spend high schoool at the same place. Grow roots. Live with new family.",
       "additional_events" : ["The earlier part of freshmen year, I'd volunteer in the library during lunch break, eating french fries and ranch in the back room.", "Had a very few number of friends freshmen year, but had a killer Karaoke party when I turned 15, where I invited a bunch of girls to my house for some good times. Unfortunately one friend had an accident with Molli's semi-dangerous chair and sliced her side good on the metal knob. That was the only bad thing that happened at the karaoke party.", "HHS had 400-500 students in our class, making the high school cafeteria the most terrifying place for someone with no friends.", "Brother Mitchell is born January 3rd, 2001."],
       "gallery" : [
-        "img/gallery/age014.jpg"
+        "img/gallery/age14/age014.jpg"
       ]
     },{
       "age": "15",
@@ -159,7 +163,7 @@
       "description" : "Get my first job at Paradise Bakery & Cafe, at the old Southglenn Mall.",
       "additional_events" : ["Also worked at Sears Roebuck & Co. in the Home Fashions department.", "More friends accruing by Sophomore year.","Tried Track &amp; Field in HS, didn't stick with it.", "Started spanish, 3 yrs required with Senora O'Hara, where we chose spanish names. I chose the name Carina, after my mom.",  "Went on a trip to Italy to visit Mom, as she was living there carving marble, like a real artist would. We visited for 3 weeks and traveled all around Italy. Grandma came too.", "Learn to drive stick shift on my first car. Huge thanks to Dad for teaching me this, as I now much prefer driving manual and am unsure if I'll ever buy an automatic."],
       "gallery" : [
-        "img/gallery/age015.jpg"
+        "img/gallery/age15/age015.jpg"
       ]
     },{
       "age": "16",
@@ -169,7 +173,7 @@
       "description" : "Working at Beau Jo's Pizza in Highlands Ranch as a hostess. With the job came lots of free pizza.",
       "additional_events" : ["Started making more friends, including Kristin Katie Stephanie Katie and more. Went to an all-boys schools' Homecoming with a boy named Collier Wright. Started doing well in High School and received a couple Student of the Month awards for History.", "Went to Keystone and broke my right wrist on some ice. The cast they put on, I think, was too small as it put a permanent dent in my right forearm. It's cool, adds character."],
       "gallery" : [
-        "img/gallery/age016.jpg"
+        "img/gallery/age16/age016.jpg"
       ]
     },{
       "age": "17",
@@ -179,7 +183,7 @@
       "description" : "Started working there to buy cute and inexpensive clothes.",
       "additional_events" : ["Started serving tables at Beau Jos.", "Enrolled in AP History classes and Advanced Algebra classes. Really dug the FOIL method and the like. Geometry and Trig were OK. Pre-Calc was cool, but as soon as I got to Calculus I ended learning math as it started to not make sense anymore.", "Asked to prom by the senior lacrosse team captain when I was a junior which, at the time, felt pretty cool. Senior year went to Prom with the student body president, who was very tall, so that was also pretty cool."],
       "gallery" : [
-        "img/gallery/age017.jpg"
+        "img/gallery/age17/age017.jpg"
       ]
     },{
       "age": "18",
@@ -189,7 +193,7 @@
       "description" : "Did the Senior Prom Fashion Show",
       "additional_events" : ["First high school &ldquo;boyfriend&rdquo;, senior year, Jani. My little sister Kati actually set us up.", "Freshmen year college: Working at Pasta Jay's", "Started college at CU - Boulder, enrolled as a Psych major.", "Moved into Farrand Hall on CU - Boulder campus. Fortunately chosen by random, to live in 1 of 4 of the Farrand towers, a dorm room which came with a total of 5 roommates. There was a balcony that was Eastern-facing, with amazing red sunrises to appreciate after those long, stay-up-all-night study sessions."],
       "gallery" : [
-        "img/gallery/age018.jpg"
+        "img/gallery/age18/age018.jpg"
       ]
     },{
       "age": "19",
@@ -199,7 +203,7 @@
       "description" : "Rather excited to be an adult.",
       "additional_events" : ["Go to Cancun with good friend Katie, where we did everything there is to do in Cancun.", "Added Art to Major. Best decision ever.","Still remember those early art assignments well, and people I met in those classes. One of my favories was to pick a color, pick a material, and pick a form to create a sculpture with said things. I chose copper, pennies, and made a table - organized the pennies from shiny and new to old and dingy or shall we say, charactered, and called the work &ldquo;Society&rdquo;. Also painted a large cow, and sewed milk plugs around it, but then countered that with another painting of a purple cow, a sacred cow, sitting on a cushion of plugs.","Worked at Zolo Bar & Grill as a hostess, food runner, busser, and server during the day. Dated Alexei (past) in college for a few years, we met in a Black Holes class. "],
       "gallery" : [
-        "img/gallery/age019.jpg"
+        "img/gallery/age19/age019.jpg"
       ]
     },{
       "age": "20",
@@ -208,7 +212,7 @@
       "status" : "Freshmen/Sophomore Year, first apartment with Lauren, Jessica, and Katie in the Goss House",
       "additional_events" : ["Switch Psych to Journalism: Media Studies", "Travel to Italy with great friend Roberta, who has dual citizenship, so we stayed in her apartment in the small town of Cavaso del Tomba. I visited for 5 weeks,  we mostly stayed northern, stayed in small towns in the area including Asolo, and visited Venice for a day. It was absolutely incredible in a million ways. Also, thank you Pablo, for the amazing vespa tours.", "Started working as a barista at Folsom St. Coffee Co. during college, where I started learning the professional coffee-making ways, how to make rosetta's, work a steam wand like a magic wand, and tune into the sound and timing of things. Milk makes a particular humm when it's been steaped to the right temperature but not too hot where the milk gets burned."],
       "gallery" : [
-        "img/gallery/age020.jpg"
+        "img/gallery/age20/age020.jpg"
       ]
     },{
       "age": "21",
@@ -217,7 +221,7 @@
       "status" : "Work at The Tavern in DTC for summer. Move into studio apartment in fall.",
       "additional_events" : ["got PRK, that is, Photo Refractive Karetectomy. Which is similar to lasik but for people with astigmatism. I was almost legally half blind by this point, -8.75 in my L eye and -9.25 in my R eye. PRK changed my life. Thank you mom for making this happen.", "May have been the last year I dressed up for halloweeen, with a purchased costume, which was to be a &ldquo;Dame of the Dead&rdquo;. Guess I still had some young 20s flare to live out."],
       "gallery" : [
-        "img/gallery/age021.jpg"
+        "img/gallery/age21/age021.jpg"
       ]
     },{
       "age": "22",
@@ -227,7 +231,7 @@
       "description" : "Lived with a couple guys for a few months off Craigslist, moved in with Maya from photography class for a few months, with her dog Zion. Then found Kate as a roommate, and we lived off the apartments off 30th and Colorado.",
       "additional_events" : ["Zolo Bar & Grill", "Folsom St. Coffee Co.", "Got really into photography, was really into Photo Journalism and Alternative Photo Processes, classes taught by Kevin Moloney and Melanie Walker."],
       "gallery" : [
-        "img/gallery/age022.jpg"
+        "img/gallery/age22/age022.jpg"
       ]
     },{
       "age": "23",
@@ -237,7 +241,7 @@
       "description" : "Start taking classes at ATLAS Institute.",
       "additional_events" : ["Got accepted into BFA Program for photography.", "Worked at 14th Street. Bar & Grill as a waitress.", "Worked at Radda Trattoria as a waitress."],
       "gallery" : [
-        "img/gallery/age023.jpg"
+        "img/gallery/age23/age023.jpg"
       ]
     },{
       "age": "24",
@@ -247,7 +251,7 @@
       "description" : "Live in house off Folsom with Denise, Kim, Jeremy. Take Fall semester off school.",
       "additional_events" : ["Started going to Bikram Yoga of Boulder, thanks to my roommate Kim for inviting me. 26 postures completed twice, with 2 breathing excercises in 90 minutes. The best yoga I've ever done. Began trading cleaning on Friday nights for free classes."],
       "gallery" : [
-        "img/gallery/age024.jpg"
+        "img/gallery/age24/age024.jpg"
       ]
     },{
       "age": "25",
@@ -257,7 +261,7 @@
       "description" : "Complete BFA for Integrated Arts, and Capstone Project for ATLAS in same final semester.",
       "additional_events" : ["Build a &ldquo;Post-Human&rdquo; sculpture, named Rose, for Capstone.","Build a &ldquo;Lightbox&rdquo; for the BFA, of which I created an animated short of images, contained and playing within a wooden box, illuminated by a small projector inside. Thank you Katey for being my wonderful model for the project." , "Get first non-service position at Microsoft as an &ldquo;Image Specialist&rdquo; for Bing Maps. Got pretty good at Photoshop, color corrections, the lasso, brush, and clone tools.", " Also worked as a Data Ingest Technician, of which entailed working at a compound of servers out in the middle of nowhere in Longmont once a week. The FedEx would come every day with new data, that is aerial photography from the pilots, which would need to be ingested, i.e. plugged into the main server and saved.", "Started dating David Schaal after graduating, of whom is my partner in love (current).", "Travelled to Krakow, Poland, for 10 days for the Unsound festival - held there in the fall. Absolutely incredible. Little bit of a culture shock, but Poland is wicked cool, and very hip."],
       "gallery" : [
-        "img/gallery/age025.jpg"
+        "img/gallery/age25/age025.jpg"
       ]
     },{
       "age": "26",
@@ -267,7 +271,7 @@
       "description" : "First Gemini party in the summer, start to love the techno beats.",
       "additional_events" : ["Leave Microsoft to work at BDW as Academic Operations Manager", "Volunteer with CommuniKey, an interdisciplinary arts and electronic music festival. Signed up to help with artist accomodations and driving.", "Learned WordPress from Chris Coyier on Lynda.com", "Realized I have a pretty serious passion for computer programming of which I didn't know I had until I took classes at ATLAS, and got exposure of the field while working at BDW, a post-graduate program through CU - Boulder.", "Started going to RailsBridge and other coding meetups."],
       "gallery" : [
-        "img/gallery/age026.jpg"
+        "img/gallery/age26/age026.jpg"
       ]
     },{
       "age": "27",
@@ -277,7 +281,7 @@
       "description" : "Internship to become a web developer.",
       "additional_events" : ["Get summer Internship in the Interactive Development department, for minimum wage, at Crispin Porter + Bogusky", "Build Via Foci as current brand to replace brittanyansay.com", "Started making my own clients. Quickly learned the importance of writing contracts for business proposals."],
       "gallery" : [
-        "img/gallery/age027.jpg"
+        "img/gallery/age27/age027.jpg"
       ]
     },{
       "age": "28",
@@ -287,7 +291,7 @@
       "description" : "Work in Rhino District at SpireMedia as frontend developer, by recruitment with the Creative Group in Denver.",
       "additional_events" : ["Later, started working back in Boulder at a SAAS company called Tap Influence. When the position ended I was asked to take a 3 hour technical interview at Gnip, which had been recently bought by Twitter. I was a little junior at the time, so I did not get the job... but it was one hell of an awesome interview.", "Right after, got offered a job as a direct connect, at Vermilion in May, 2014, for PHP developer."],
       "gallery" : [
-        "img/gallery/age028.jpg"
+        "img/gallery/age28/age028.jpg"
       ]
     },{
       "age": "29",
@@ -297,7 +301,7 @@
       "description" : "Growing senior-level in frontend, more comfortable in backend.",
       "additional_events" : ["Start teaching at Front Range Community College, once a week: Spring class is called 'Complete Web Authoring', and Fall class is called 'Web Architecture: Open Source'", "Pretty attracted to Javascript as a language, and am still figuring out closures, callbacks, traversing the DOM with dignity, arguments, context, and selectors at large."],
       "gallery" : [
-        "img/gallery/age029.jpg"
+        "img/gallery/age29/age029.jpg"
       ]
     },{
       "age": "30",
@@ -307,7 +311,7 @@
       "description" : "Senior Frontend Developer, Mid-Level Full Stack Developer",
       "additional_events" : ["Got my own studio in shared workspace, then Got Studio in Mountains up Sugarloaf", "Took Piano from Hugh at The Lesson Studio, such a ball. Learned some Patsy Cline, Carole King, Donna Lewis, Tracy Chapman.", "Coming up on 3 year anniversary at Vermilion, such a pleasure to work for a mission-based agency, growing the good.", "Worked with a plethora of types of work: scientists, entrepreneurs, education, outreach, volunteering, and many more.", "Got a 2017 Subaru Forester, first time owning new car (four-wheel, nonetheless). Due to the Saabinator catching aflame while driving up Sunshine Canyon, the new car was undoubtedly required.", "Went to Meow Wolf in 2016, such an awesome place in Santa Fe.", "Started painting again.", "Wrapping up childhood scrapbook and looking for other odds and ends projects to be completed."],
       "gallery" : [
-        "img/gallery/age030.jpg"
+        "img/gallery/age30/age030.jpg"
       ]
     },{
       "age": "31",
@@ -317,7 +321,7 @@
       "description" : "Returned to the woods.",
       "additional_events" : ["Mom got a liver transplant March 19, 2017", "Began dating Rio.", "Went on lots of trips to hot springs, mostly clothing optional ones, thereby rekindling my love for being naked.", "Totaled the new Forrester on McClure pass and got a new Crosstrek as a replacement.", "Moved back to Sunshine Canyon.", "Found out I'm pregnant on December 19th."],
       "gallery" : [
-        "img/gallery/age031.jpg?v-2"
+        "img/gallery/age31/age031.jpg?v-2"
       ]      
     }
        
